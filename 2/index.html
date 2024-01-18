@@ -9,42 +9,42 @@
     <base href="https://htmlacademy-htmlcss.github.io/2288929-sedona-1/2/">
 </head>
   <body>
-    <header class="page-header">
+    <header class="header">
       <nav class="navigation">
-        <p class="navigation-logo">
+        <a class="navigation-logo" title="Логотип города Седона">
           <img src="#" alt="Логотип города Седона">
-        </p>
+        </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="#">Главная</a>
+            <a class="navigation-link navigation-link-current" title="Главная" href="#">Главная</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="#">О Седоне</a>
+            <a class="navigation-link" title="О Седоне" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link" title="Каталог гостиниц" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
-            <a href="#">
+            <a href="#" title="Поиск">
               <span class="visually-hidden">
                 Поиск
               </span>
             </a>
           </li>
           <li class="navigation-item">
-            <a href="#">
+            <a href="#" title="Добавить в избранное" >
               <span class="visually-hidden">
                 В избранное
               </span>
             </a>
           </li>
         </ul>
-          <a href="#" class="button">Хочу сюда!</a>
+          <a href="#" class="button" title="Каталог гостиниц">Хочу сюда!</a>
       </nav>
     </header>
-    <main class="page-main">
+    <main class="main">
       <section class="hero">
         <h1 class="visually-hidden">Туристический город Седона</h1>
         <h2 class="lead-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -78,7 +78,6 @@
         <img src="#" alt="Мост дьявола" class="advantages-photo">
       </section>
       <section class="entertainments">
-        <h2 class="visually-hidden">Развлечения</h2>
         <h2 class="lead-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
         <p class="lead-description">Опытный персонал и качественное обслуживание!</p>
         <ul class="entertainments-list">
@@ -97,16 +96,15 @@
         </ul>
       </section>
       <section class="search">
-        <h2 class="visually-hidden">Бронирование гостиницы</h2>
         <h2 class="lead-title">Заинтересовались?</h2>
         <p class="lead-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a href="#" class="button">Поиск гостиницы в Седоне</a>
+        <a href="#" title="Поиск гостиниц" class="button">Поиск гостиницы в Седоне</a>
       </section>
       <section class="subscription">
         <h2 class="lead-title">Подпишитесь на рассылку</h2>
         <p class="lead-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" class="subscription-form" method="post">
-          <input class="subscription-filed" type="email" name="email-subscription" placeholder="Ваш e-mail" required>
+          <input class="subscription-filed" type="email" name="email" placeholder="Ваш e-mail" required>
           <button type="submit" class="button-subscription">Подписаться</button>
         </form>
       </section>
@@ -114,25 +112,25 @@
     <footer class="footer">
       <ul class="social-list">
         <li class="social-item">
-          <a href="#">
-          <img src="#" alt="Вконтакте">
+          <a title="Вконтакте" href="#">
+            <img src="https://vk.com/htmlacademy" alt="Вконтакте">
           </a>
         </li>
         <li class="social-item">
-          <a href="#">
-            <img src="#" alt="Телеграм">
-            </a>
+          <a title="Телеграм" href="#">
+            <img src="https://t.me/htmlacademy" alt="Телеграм">
+          </a>
           </li>
         <li class="social-item">
-          <a href="#">
-            <img src="#" alt="Youtube">
+          <a title="youtube" href="#">
+            <img src="https://www.youtube.com/user/htmlacademyru" alt="Youtube">
           </a>
         </li>
       </ul>
-      <a href="+78128121212" class="footer-phone">+7 (812) 812-12-12</a>
-      <p class="footer-logo">
+      <a href="tel:+78128121212" title="+78128121212" class="footer-phone">+7 (812) 812-12-12</a>
+      <a href="https://htmlacademy.ru/" title="Разработчик html academy" class="footer-logo">
         <img src="#" alt="html academy">
-      </p>
+      </a>
     </footer>
   </body>
 </html>

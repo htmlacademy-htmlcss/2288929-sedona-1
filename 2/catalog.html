@@ -49,15 +49,15 @@
         <h1 class="catalog-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs-list">
           <li class="breadcrumbs-item">
-            <a href="index.html" class="breadcrumbs-link-index"></a>
+            <a href="index.html" title="Главная страница" class="breadcrumbs-link-index"></a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
+            <a class="breadcrumbs-link" title="Гостиницы">Гостиницы</a>
           </li>
         </ul>
         <section class="catalog-header-filters">
             <h2 class="visually-hidden">Фильтры поиска гостиниц</h2>
-            <form action="https://echo.htmlacademy.ru/" class="filters-form" method="get">
+            <form action="https://echo.htmlacademy.ru/" class="filters-form" method="post">
               <fieldset class="filters-form-group">
                 <legend class="filters-form-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
@@ -137,23 +137,24 @@
           </select>
           <ul class="catalog-view-buttons">
             <li class="catalog-view-item">
-              <a class="catalog-view-button catalog-view-button-current" href="#">
+              <button class="catalog-view-button catalog-view-button-current" href="#">
                 <span class="visually-hidden">Сетка</span>
-              </a>
+              </button>
             </li>
             <li class="catalog-view-item">
-              <a class="catalog-view-button"  href="#">
+              <button class="catalog-view-button"  href="#">
                 <span class="visually-hidden">Карточка с описанием</span>
-              </a>
+              </button>
             </li>
             <li class="catalog-view-item">
-              <a class="catalog-view-button" href="#">
+              <button class="catalog-view-button" href="#">
                 <span class="visually-hidden">Лист</span>
-              </a>
+              </button>
             </li>
           </ul>
         </header>
         <section class="catalog-hotels">
+          <h2 class="visually-hidden">Каталог гостиниц</h2>
           <ul class="hotels-list">
             <li class="hotel-card">
               <img src="#" alt="">
@@ -168,20 +169,7 @@
                   <button class="hotel-card-button-favorite" type="button">В избранное</button>
                 </div>
                 <div class="hotel-card-button-rating">
-                  <ul class="hotel-rating-list">
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                  </ul>
+                  <img src="#" alt="4 звезды" class="hotel-rating-img">
                   <span class="hotel-rating-info">Рейтинг: 8,5</span>
                 </div>
               </div>
@@ -199,20 +187,7 @@
                   <button class="hotel-card-button-favorite" type="button">В избранное</button>
                 </div>
                 <div class="hotel-card-button-rating">
-                  <ul class="hotel-rating-list">
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                  </ul>
+                  <img src="#" alt="4 звезды" class="hotel-rating-img">
                   <span class="hotel-rating-info">Рейтинг: 9,2</span>
                 </div>
               </div>
@@ -230,17 +205,7 @@
                   <button class="hotel-card-button-favorite" type="button">В избранное</button>
                 </div>
                 <div class="hotel-card-button-rating">
-                  <ul class="hotel-rating-list">
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                  </ul>
+                  <img src="#" alt="3 звезды" class="hotel-rating-img">
                   <span class="hotel-rating-info">Рейтинг: 6,9</span>
                 </div>
               </div>
@@ -258,14 +223,7 @@
                   <button class="hotel-card-button-favorite" type="button">В избранное</button>
                 </div>
                 <div class="hotel-card-button-rating">
-                  <ul class="hotel-rating-list">
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                    <li class="hotel-rating-item">
-                      <img src="#" alt="Звезда рейтинга">
-                    </li>
-                  </ul>
+                  <img src="#" alt="2 звезды" class="hotel-rating-img">
                   <span class="hotel-rating-info">Рейтинг: 5,0</span>
                 </div>
               </div>
