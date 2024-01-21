@@ -9,10 +9,10 @@
   </head>
   <body>
     <header class="page-header">
+      <a class="navigation-logo">
+        <img src="#" alt="Логотип города Седона">
+      </a>
       <nav class="navigation">
-        <p class="navigation-logo">
-          <img src="#" alt="Логотип города Седона">
-        </p>
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
@@ -24,6 +24,7 @@
             <a class="navigation-link navigation-link-current" href="#">Гостиницы</a>
           </li>
         </ul>
+      </nav>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a href="#">
@@ -41,19 +42,18 @@
           </li>
         </ul>
           <a href="#" class="button">Хочу сюда!</a>
-      </nav>
     </header>
     <main class="catalog-inner">
       <header class="catalog-header">
         <h1 class="catalog-header-title">Гостиницы Седоны</h1>
-        <ul class="breadcrumbs-list">
+        <ol class="breadcrumbs-list">
           <li class="breadcrumbs-item">
             <a href="index.html" title="Главная страница" class="breadcrumbs-link-index"></a>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" title="Гостиницы">Гостиницы</a>
           </li>
-        </ul>
+        </ol>
         <section class="catalog-header-filters">
             <h2 class="visually-hidden">Фильтры поиска гостиниц</h2>
             <form action="https://echo.htmlacademy.ru/" class="filters-form" method="post">
@@ -230,7 +230,7 @@
           </ul>
         </section>
         <footer class="catalog-footer">
-          <ul class="pagination">
+          <ol class="pagination">
             <li class="pagination-item">
               <a class="pagination-link pagination-current">1</a>
             </li>
@@ -244,12 +244,12 @@
               <a href="#" class="pagination-link">4</a>
             </li>
             <li class="pagination-item">
-              <a href="#" class="pagination-link pagination-collapse">...</a>
+              <a class="pagination-link pagination-collapse">...</a>
             </li>
             <li class="pagination-item">
               <a href="#" class="pagination-link">10</a>
             </li>
-          </ul>
+          </ol>
         </footer>
       </section>
       <section class="subscription">
