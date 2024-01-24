@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "PT sans";
-  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -18,4 +18,22 @@ body {
   font-family: "PT sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.header {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
 }
