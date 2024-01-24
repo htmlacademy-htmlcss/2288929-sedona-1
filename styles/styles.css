@@ -22,6 +22,17 @@ body {
   color: #333333;
 }
 
+.button {
+  background-color: #756157;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
 .header {
   background-color: #ffffff;
   color: #000000;
