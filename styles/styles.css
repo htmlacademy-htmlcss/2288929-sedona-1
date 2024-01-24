@@ -82,6 +82,6 @@ body {
   color: #ffffff;
 }
 
-.features-item:nth-child(3n) {
+.features-item:nth-child(4n + 3) {
   background-color: rgba(131, 179, 211, 0.20);
 }
