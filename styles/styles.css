@@ -19,7 +19,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   background-color: #ffffff;
-  color: #000000;
+  color: #333333;
 }
 
 .header {
@@ -36,4 +36,52 @@ body {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
+}
+
+.hero {
+  color: #ffffff;
+  background-color: #b59e96;
+}
+
+.features {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.lead-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  }
+
+.lead-description {
+  color:#333333;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.features-list {
+  background-color:  rgba(131, 179, 211, 0.12);
+}
+
+.features-title {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.features-item-inverse {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.features-item-inverse h3 {
+  color: #ffffff;
+}
+
+.features-item:nth-child(3n) {
+  background-color: rgba(131, 179, 211, 0.20);
 }
