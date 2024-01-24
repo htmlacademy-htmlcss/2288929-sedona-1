@@ -44,7 +44,6 @@ body {
 }
 
 .features {
-  background-color: #ffffff;
   text-align: center;
 }
 
@@ -65,7 +64,7 @@ body {
   background-color:  rgba(131, 179, 211, 0.12);
 }
 
-.features-title {
+.features-title, .entertainments-title  {
   color: #000000;
   font-size: 24px;
   font-weight: 700;
@@ -84,4 +83,12 @@ body {
 
 .features-item:nth-child(4n + 3) {
   background-color: rgba(131, 179, 211, 0.20);
+}
+
+.entertainments {
+  text-align: center;
+}
+
+.entertainments-item:nth-child(odd) {
+  background-color:  rgba(131, 179, 211, 0.12);
 }
