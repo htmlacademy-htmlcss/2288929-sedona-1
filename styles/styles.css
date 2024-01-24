@@ -103,3 +103,7 @@ body {
 .entertainments-item:nth-child(odd) {
   background-color:  rgba(131, 179, 211, 0.12);
 }
+
+.search {
+  text-align: center;
+}
