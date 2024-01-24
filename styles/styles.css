@@ -107,3 +107,21 @@ body {
 .search {
   text-align: center;
 }
+
+.subscription {
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-align: center;
+  background-image: url(/images/subscribe.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.lead-description-inverse {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-subscription {
+  background-color: #82B3D3;
+}
