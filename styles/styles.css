@@ -141,3 +141,23 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+/* Страница каталога */
+
+.catalog-header {
+  background-image: url(/images/filter.jpg);
+  background-color: #756157;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.button-submit {
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.button-reset {
+  background-color: transparent;
+  color: #ffffff;
+}
