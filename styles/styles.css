@@ -231,3 +231,24 @@ body {
   line-height: 20px;
   text-transform: uppercase;
 }
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #82B3D3;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.pagination-current {
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-collapse {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
+}
