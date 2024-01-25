@@ -201,3 +201,33 @@ body {
   font-weight: 700;
   line-height: 24px;
 }
+
+.catalog-view-button {
+  background-color: #ffffff;
+}
+
+.hotel-card-name {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.hotel-card-button-favorite {
+  color: #ffffff;
+  background-color: #82B3D3;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.button-favorite-added {
+  background-color: #7DB54F;
+}
+
+.hotel-rating-info {
+  background-color: #F2F2F2;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
