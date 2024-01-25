@@ -252,3 +252,23 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
+
+.subscription-catalog {
+  text-align: center;
+}
+
+.subscription-catalog .subscription-filed {
+  background-color: #F2F2F2;
+  color: #000000;
+  opacity: 0.6;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.subscription-catalog .button-subscription{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
