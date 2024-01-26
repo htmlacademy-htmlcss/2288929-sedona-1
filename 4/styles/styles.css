@@ -14,17 +14,26 @@
   font-display: swap;
 }
 
+:root {
+  --color-white: #ffffff;
+  --color-black: #333333;
+  --color-alternative-black: #000000;
+  --color-light-blue: #82b3d3;
+  --color-green: #7db54f;
+  --color-grey: #f2f2f2;
+}
+
 body {
-  font-family: "PT sans", sans-serif;
+  font-family: "PT sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background-color: #ffffff;
-  color: #333333;
+  background-color: var(--color-white);
+  color: var(--color-black);
 }
 
 .button {
   background-color: #756157;
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -34,8 +43,8 @@ body {
 }
 
 .header {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--color-white);
+  color: var(--color-alternative-black);
 }
 
 .navigation-link {
@@ -44,13 +53,13 @@ body {
   line-height: 24px;
   text-transform: capitalize;
   text-decoration: none;
-  color: #000000;
-  background-color: #ffffff;
+  color: var(--color-alternative-black);
+  background-color: var(--color-white);
   text-align: center;
 }
 
 .hero {
-  color: #ffffff;
+  color: var(--color-white);
   background-color: #b59e96;
 }
 
@@ -66,7 +75,7 @@ body {
   }
 
 .lead-description {
-  color:#333333;
+  color:var(--color-black);
   font-size: 22px;
   line-height: 26px;
 }
@@ -76,7 +85,7 @@ body {
 }
 
 .features-title, .entertainments-title  {
-  color: #000000;
+  color: var(--color-alternative-black);
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -84,12 +93,12 @@ body {
 }
 
 .features-item-inverse {
-  color: #ffffff;
-  background-color: #82B3D3;
+  color: var(--color-white);
+  background-color: var(--color-light-blue);
 }
 
 .features-item-inverse h3 {
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .features-item:nth-child(4n + 3) {
@@ -109,10 +118,10 @@ body {
 }
 
 .subscription {
-  color: #ffffff;
-  background-color: #82B3D3;
+  color: var(--color-white);
+  background-color: var(--color-light-blue);
   text-align: center;
-  background-image: url(/images/subscribe.jpg);
+  background-image: url("/images/subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -123,7 +132,7 @@ body {
 }
 
 .button-subscription {
-  background-color: #82B3D3;
+  background-color: var(--color-light-blue);
 }
 
 .search-button {
@@ -133,7 +142,7 @@ body {
 }
 
 .footer-phone {
-  color: #000000;
+  color: var(--color-alternative-black);
   text-align: center;
   font-size: 40px;
   font-weight: 400;
@@ -145,16 +154,16 @@ body {
 /* Страница каталога */
 
 .catalog-header {
-  background-image: url(/images/filter.jpg);
+  background-image: url("/images/filter.jpg");
   background-color: #756157;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .button-submit {
-  background-color: #82B3D3;
-  color: #ffffff;
+  background-color: var(--color-light-blue);
+  color: var(--color-white);
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -164,7 +173,7 @@ body {
 
 .button-reset {
   background-color: transparent;
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -196,45 +205,45 @@ body {
 }
 
 .control-input {
-  color: #000000;
+  color: var(--color-alternative-black);
   font-size: 18px;
   font-weight: 700;
   line-height: 24px;
 }
 
 .catalog-view-button {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .hotel-card-name {
-  color: #000000;
+  color: var(--color-alternative-black);
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
 }
 
 .hotel-card-button-favorite {
-  color: #ffffff;
-  background-color: #82B3D3;
+  color: var(--color-white);
+  background-color: var(--color-light-blue);
   font-weight: 700;
   line-height: 20px;
   text-transform: uppercase;
 }
 
 .button-favorite-added {
-  background-color: #7DB54F;
+  background-color: var(--color-green);
 }
 
 .hotel-rating-info {
-  background-color: #F2F2F2;
+  background-color: var(--color-grey);
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
 }
 
 .pagination-link {
-  color: #ffffff;
-  background-color: #82B3D3;
+  color: var(--color-white);
+  background-color: var(--color-light-blue);
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
@@ -242,13 +251,13 @@ body {
 }
 
 .pagination-current {
-  color: #000000;
-  background-color: #F2F2F2;
+  color: var(--color-alternative-black);
+  background-color: var(--color-grey);
 }
 
 .pagination-collapse {
-  color: #000000;
-  background-color: #ffffff;
+  color: var(--color-alternative-black);
+  background-color: var(--color-white);
   font-size: 22px;
   line-height: 26px;
 }
@@ -258,15 +267,15 @@ body {
 }
 
 .subscription-catalog .subscription-filed {
-  background-color: #F2F2F2;
-  color: #000000;
+  background-color: var(--color-grey);
+  color: var(--color-alternative-black);
   opacity: 0.6;
   font-size: 18px;
   line-height: 24px;
 }
 
 .subscription-catalog .button-subscription{
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 20px;
   font-weight: 700;
   line-height: 36px;
