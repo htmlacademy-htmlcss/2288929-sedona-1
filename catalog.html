@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Туризм, город Седона, Аризона, Гран-Каньон, бронирование, гостиницы">
   <meta name="description" content="Каталог гостиниц в туристическом городе Седона">
-  <title> Название страницы </title>
+  <title>Каталог гостиниц Sedona </title>
+  <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -24,7 +25,6 @@
             <a class="navigation-link navigation-link-current" href="#">Гостиницы</a>
           </li>
         </ul>
-      </nav>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a href="#">
@@ -41,6 +41,7 @@
             </a>
           </li>
         </ul>
+      </nav>
           <a href="#" class="button">Хочу сюда!</a>
     </header>
     <main class="catalog-inner">
@@ -48,6 +49,7 @@
         <h1 class="catalog-header-title">Гостиницы Седоны</h1>
         <ol class="breadcrumbs-list">
           <li class="breadcrumbs-item">
+            <span class="visually-hidden">На главную страницу</span>
             <a href="index.html" class="breadcrumbs-link-index" title="Главная страница" ></a>
           </li>
           <li class="breadcrumbs-item">
@@ -109,13 +111,11 @@
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="control-input" type="number" value="0" placeholder="от">
-                      Гостиница
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input class="control-input" type="number" value="9000" placeholder="до">
-                      Мотель
                     </label>
                   </li>
                 </ul>
@@ -164,7 +164,7 @@
                   <span class="card-price-value">От 4000 ₽</span>
                 </p>
                 <div class="hotel-card-buttons">
-                  <a href="#" class="hotel-card-link">Подробнее</a>
+                  <a href="#" class="button hotel-card-link">Подробнее</a>
                   <button class="hotel-card-button-favorite" type="button">В избранное</button>
                 </div>
                 <div class="hotel-card-button-rating">
@@ -182,11 +182,11 @@
                   <span class="card-price-value">От 5000 ₽</span>
                 </p>
                 <div class="hotel-card-buttons">
-                  <a href="#" class="hotel-card-link">Подробнее</a>
+                  <a href="#" class="button hotel-card-link">Подробнее</a>
                   <button class="hotel-card-button-favorite button-favorite-added" type="button">В избранном</button>
                 </div>
                 <div class="hotel-card-button-rating">
-                  <img src="images/rating/star-4.svg width="140" height="37" alt="4 звезды" class="hotel-rating-img">
+                  <img src="images/rating/star-4.svg" width="140" height="37" alt="4 звезды" class="hotel-rating-img">
                   <span class="hotel-rating-info">Рейтинг: 9,2</span>
                 </div>
               </div>
@@ -200,7 +200,7 @@
                   <span class="card-price-value">От 2500 ₽</span>
                 </p>
                 <div class="hotel-card-buttons">
-                  <a href="#" class="hotel-card-link">Подробнее</a>
+                  <a href="#" class="button hotel-card-link">Подробнее</a>
                   <button class="hotel-card-button-favorite" type="button">В избранное</button>
                 </div>
                 <div class="hotel-card-button-rating">
@@ -218,7 +218,7 @@
                   <span class="card-price-value">От 1500 ₽</span>
                 </p>
                 <div class="hotel-card-buttons">
-                  <a href="#" class="hotel-card-link">Подробнее</a>
+                  <a href="#" class="button hotel-card-link">Подробнее</a>
                   <button class="hotel-card-button-favorite" type="button">В избранное</button>
                 </div>
                 <div class="hotel-card-button-rating">
@@ -252,7 +252,7 @@
           </ol>
         </footer>
       </section>
-      <section class="subscription">
+      <section class="subscription-catalog">
         <h2 class="lead-title">Подпишитесь на рассылку</h2>
         <p class="lead-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" class="subscription-form" method="post">

@@ -6,6 +6,7 @@
     <meta name="keywords" content="Туризм, город Седона, Аризона, Гран-Каньон, бронирование, гостиницы">
     <meta name="description" content="Уютный красивый небольшой туристический городок в Аризоне">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="header">
@@ -24,7 +25,6 @@
             <a class="navigation-link" title="Каталог гостиниц" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-      </nav>
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a href="#" title="Поиск">
@@ -41,6 +41,7 @@
             </a>
           </li>
         </ul>
+      </nav>
           <a href="#" class="button" title="Каталог гостиниц">Хочу сюда!</a>
     </header>
     <main class="main">
@@ -55,8 +56,8 @@
         <p class="lead-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <img src="images/photo-1.jpg" width="800" height="385" alt="Здания в Седоне" class="features-photo">
         <ul class="features-list">
-          <li class="features-item">
-            <h3 class="features-title">Настоящий городок</h3>
+          <li class="features-item features-item-inverse">
+            <h3 class="features-title ">Настоящий городок</h3>
             <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </li>
           <li class="features-item">
@@ -71,8 +72,8 @@
             <h3 class="features-title">Мало туристов</h3>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-          <li class="features-item">z
-            <h3 class="features-title">Там есть мост дьявола</h3>
+          <li class="features-item features-item-inverse">
+            <h3 class="features-title features-title-inverse">Там есть мост дьявола</h3>
             <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
         </ul>
@@ -101,15 +102,15 @@
         <h2 class="visually-hidden">Поиск гостиниц</h2>
         <p class="lead-title">Заинтересовались?</p>
         <p class="lead-description">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a href="#" title="Поиск гостиниц" class="button">Поиск гостиницы в Седоне</a>
+        <a href="#" title="Поиск гостиниц" class="button search-button">Поиск гостиницы в Седоне</a>
       </section>
       <section class="subscription">
         <h2 class="visually-hidden">Подписка</h2>
         <p class="lead-title">Подпишитесь на рассылку</p>
-        <p class="lead-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <p class="lead-description-inverse">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form action="https://echo.htmlacademy.ru/" class="subscription-form" method="post">
           <input class="subscription-filed" type="email" name="email" placeholder="Ваш e-mail" required>
-          <button type="submit" class="button-subscription">Подписаться</button>
+          <button type="submit" class="button button-subscription">Подписаться</button>
         </form>
       </section>
     </main>
