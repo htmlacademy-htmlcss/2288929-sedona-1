@@ -28,6 +28,10 @@ html {
 }
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 1.167;
@@ -38,6 +42,8 @@ body {
 .page-container {
 
 }
+
+
 
 .button {
   background-color: #756157;
@@ -64,6 +70,10 @@ body {
   color: var(--color-alternative-black);
   background-color: var(--color-white);
   text-align: center;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .hero {
