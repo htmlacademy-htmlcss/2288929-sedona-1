@@ -45,6 +45,23 @@ body {
 
 }
 
+.navigation {
+  width: 1060px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 460px;
+}
+
+.navigation-user {
+  width: 300px;
+  margin-left: auto;
+}
+
 .button {
   background-color: #756157;
   color: var(--color-white);
