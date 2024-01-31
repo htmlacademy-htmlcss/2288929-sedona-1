@@ -23,6 +23,10 @@
   --color-grey: #f2f2f2;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "PT sans", Arial, sans-serif;
   font-size: 18px;
