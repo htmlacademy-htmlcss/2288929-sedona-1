@@ -31,6 +31,10 @@ body {
   color: var(--color-black);
 }
 
+.page-container {
+
+}
+
 .button {
   background-color: #756157;
   color: var(--color-white);
