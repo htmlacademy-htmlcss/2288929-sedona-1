@@ -185,6 +185,16 @@ body {
 .entertainments {
   text-align: center;
 }
+.entertainments-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.entertainments-item {
+  width: 400px;
+  height: 385px;
+}
 
 .entertainments-item:nth-child(odd) {
   background-color:  rgba(131, 179, 211, 0.12);
