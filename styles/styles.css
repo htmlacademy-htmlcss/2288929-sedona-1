@@ -228,6 +228,21 @@ body {
   line-height: 1.8;
 }
 
+.footer-container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 142px;
+  margin-right: 41.5px;
+}
+
 .footer-phone {
   color: var(--color-alternative-black);
   text-align: center;
@@ -236,6 +251,12 @@ body {
   line-height: 1;
   text-transform: uppercase;
   text-decoration: none;
+  width: 720px;
+}
+
+.footer-logo {
+  width: 115px;
+  margin-left: auto;
 }
 
 /* Страница каталога */
