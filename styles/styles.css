@@ -119,6 +119,31 @@ body {
   text-align: center;
 }
 
+.features-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.features-photo {
+  display: block;
+}
+
+.features-item {
+  width: 400px;
+  height: 385px;
+}
+
+.wrapper-features-list-top {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.wrapper-features-list-center {
+  display: flex;
+}
+
 .lead-title {
   font-size: 30px;
   font-weight: 700;
@@ -153,7 +178,7 @@ body {
   color: var(--color-white);
 }
 
-.features-item:nth-child(4n + 3) {
+.features-item-blue {
   background-color: rgba(131, 179, 211, 0.20);
 }
 
