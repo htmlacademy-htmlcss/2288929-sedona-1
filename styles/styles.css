@@ -98,6 +98,23 @@ body {
   background-color: #b59e96;
 }
 
+.hero-container {
+  position: relative;
+}
+
+.lead-background {
+  display: block;
+}
+
+.hero-lead-text {
+  position: absolute;
+  display: block;
+  inset: 0;
+  margin-top: 51px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .features {
   text-align: center;
 }
