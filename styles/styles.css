@@ -46,9 +46,11 @@ body {
 }
 
 .navigation {
-  width: 1060px;
+  width: 1200px;
+  padding: 0 70px;
   display: flex;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .navigation-logo {
@@ -60,12 +62,13 @@ body {
 .navigation-list {
   margin: 0;
   padding: 0;
-  width: 460px;
 }
 
 .navigation-user {
-  width: 300px;
+  margin: 0;
+  padding: 0;
   margin-left: auto;
+  margin-right: 20px;
 }
 
 .button {
