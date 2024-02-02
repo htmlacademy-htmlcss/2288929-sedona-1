@@ -56,7 +56,6 @@ body {
 .navigation-logo {
   width: 140px;
   margin-right: 30px;
-
 }
 
 .navigation-list {
@@ -140,11 +139,11 @@ body {
 }
 
 .features-item {
-  width: 400px;
-  height: 385px;
+  min-width: 400px;
+  min-height: 385px;
 }
 
-.wrapper-features-list-top {
+.wrapper-features-list {
   display: flex;
   flex-direction: row-reverse;
 }
