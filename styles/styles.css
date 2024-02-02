@@ -32,7 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.167;
   background-color: var(--color-white);
