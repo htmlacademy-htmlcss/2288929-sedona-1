@@ -39,12 +39,6 @@ body {
   color: var(--color-black);
 }
 
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-
-}
-
 .navigation {
   width: 1200px;
   padding: 0 70px;
@@ -95,6 +89,11 @@ body {
   color: var(--color-alternative-black);
   background-color: var(--color-white);
   text-align: center;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-container {
