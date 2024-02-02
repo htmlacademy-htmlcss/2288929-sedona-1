@@ -59,6 +59,7 @@ body {
 .navigation-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .navigation-user {
@@ -135,6 +136,7 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .features-photo {
@@ -200,6 +202,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  list-style-type: none;
 }
 
 .entertainments-item {
@@ -254,6 +257,7 @@ body {
   justify-content: space-between;
   width: 142px;
   margin-right: 41.5px;
+  list-style-type: none;
 }
 
 .footer-phone {
@@ -306,6 +310,9 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+.catalog-filter-list {
+  list-style-type: none;
+}
 
 .catalog-header-title {
   font-size: 60px;
@@ -337,8 +344,16 @@ body {
   line-height: 1.333;
 }
 
+.catalog-view-buttons {
+  list-style-type: none;
+}
+
 .catalog-view-button {
   background-color: var(--color-white);
+}
+
+.hotels-list {
+  list-style-type: none;
 }
 
 .hotel-card-name {
@@ -366,6 +381,11 @@ body {
   line-height: 1.25;
   text-transform: uppercase;
 }
+
+.pagination-list {
+  list-style-type: none;
+}
+
 
 .pagination-link {
   color: var(--color-white);
