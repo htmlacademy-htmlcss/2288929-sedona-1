@@ -40,7 +40,7 @@ body {
 }
 
 .navigation {
-  width: 1200px;
+  max-width: 1200px;
   padding: 0 70px;
   display: flex;
   margin: 0 auto;
@@ -92,7 +92,7 @@ body {
 }
 
 .page-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -237,8 +237,10 @@ body {
 
 .footer-container {
   display: flex;
-  width: 1060px;
+  max-width: 1200px;
+  padding: 0 70px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .social-list {
@@ -258,7 +260,8 @@ body {
   line-height: 1;
   text-transform: uppercase;
   text-decoration: none;
-  width: 720px;
+  max-width: 720px;
+  padding: 0 195px;
 }
 
 .footer-logo {
