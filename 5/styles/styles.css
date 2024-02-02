@@ -32,40 +32,41 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  font-family: "PT sans", Arial, sans-serif;
+  font-family: "PT sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.167;
   background-color: var(--color-white);
   color: var(--color-black);
 }
 
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-
-}
-
 .navigation {
-  width: 1060px;
+  max-width: 1200px;
+  padding: 0 70px;
   display: flex;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .navigation-logo {
   width: 140px;
   margin-right: 30px;
+}
 
+.navigation-logo-image {
+  display: block;
 }
 
 .navigation-list {
   margin: 0;
   padding: 0;
-  width: 460px;
+  list-style-type: none;
 }
 
 .navigation-user {
-  width: 300px;
+  margin: 0;
+  padding: 0;
   margin-left: auto;
+  margin-right: 20px;
 }
 
 .button {
@@ -93,6 +94,11 @@ body {
   color: var(--color-alternative-black);
   background-color: var(--color-white);
   text-align: center;
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .main-container {
@@ -130,6 +136,7 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .features-photo {
@@ -137,11 +144,11 @@ body {
 }
 
 .features-item {
-  width: 400px;
-  height: 385px;
+  min-width: 400px;
+  min-height: 385px;
 }
 
-.wrapper-features-list-top {
+.wrapper-features-list {
   display: flex;
   flex-direction: row-reverse;
 }
@@ -195,6 +202,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  list-style-type: none;
 }
 
 .entertainments-item {
@@ -236,8 +244,10 @@ body {
 
 .footer-container {
   display: flex;
-  width: 1060px;
+  max-width: 1200px;
+  padding: 0 70px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .social-list {
@@ -247,6 +257,7 @@ body {
   justify-content: space-between;
   width: 142px;
   margin-right: 41.5px;
+  list-style-type: none;
 }
 
 .footer-phone {
@@ -257,7 +268,8 @@ body {
   line-height: 1;
   text-transform: uppercase;
   text-decoration: none;
-  width: 720px;
+  max-width: 720px;
+  padding: 0 195px;
 }
 
 .footer-logo {
@@ -298,6 +310,9 @@ body {
   text-transform: uppercase;
   text-align: center;
 }
+.catalog-filter-list {
+  list-style-type: none;
+}
 
 .catalog-header-title {
   font-size: 60px;
@@ -329,8 +344,16 @@ body {
   line-height: 1.333;
 }
 
+.catalog-view-buttons {
+  list-style-type: none;
+}
+
 .catalog-view-button {
   background-color: var(--color-white);
+}
+
+.hotels-list {
+  list-style-type: none;
 }
 
 .hotel-card-name {
@@ -358,6 +381,11 @@ body {
   line-height: 1.25;
   text-transform: uppercase;
 }
+
+.pagination-list {
+  list-style-type: none;
+}
+
 
 .pagination-link {
   color: var(--color-white);
