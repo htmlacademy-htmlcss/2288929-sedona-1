@@ -49,8 +49,6 @@ html {
 body {
   margin: 0;
   height: 100%;
-
-
   font-family: "PT sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.167;
@@ -78,6 +76,20 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+}
+
+.navigation-link {
+  padding: 20px 16px;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: var(--color-alternative-black);
+  background-color: var(--color-white);
+  text-align: center;
 }
 
 .navigation-user {
@@ -85,6 +97,13 @@ body {
   padding: 0;
   margin-left: auto;
   margin-right: 20px;
+  align-items: center;
+}
+
+.navigation-user .navigation-link {
+  min-width: 20px;
+  min-height: 20px;
+  padding: 22px 12px;
 }
 
 .button {
@@ -98,20 +117,13 @@ body {
   text-align: center;
 }
 
+.button-nav {
+  padding: 8px 34px;
+}
+
 .header {
   background-color: var(--color-white);
   color: var(--color-alternative-black);
-}
-
-.navigation-link {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-transform: capitalize;
-  text-decoration: none;
-  color: var(--color-alternative-black);
-  background-color: var(--color-white);
-  text-align: center;
 }
 
 .main-container {
