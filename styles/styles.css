@@ -199,12 +199,27 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   max-width: 230px;
+  min-height: 160px;
 }
 
 .wrapper-features-list {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.features-title {
+  margin: 0;
+}
+
+.features-item p {
+  margin: 0;
+}
+
+.features-title-wrapper {
+  display: flex;
+  width: 175px;
 }
 
 .wrapper-features-list-center {
