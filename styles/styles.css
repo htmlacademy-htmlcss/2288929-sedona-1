@@ -135,6 +135,7 @@ body {
 .hero {
   color: var(--color-white);
   background-color: #b59e96;
+  margin-bottom: 70px;
 }
 
 .hero-container {
@@ -156,6 +157,22 @@ body {
 
 .features {
   text-align: center;
+  margin-bottom: 64px;
+}
+
+.features .lead-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 25px;
+  max-width: 620px;
+}
+
+.features .lead-description {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  max-width: 652px;
 }
 
 .features-list {
@@ -171,8 +188,18 @@ body {
 }
 
 .features-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 400px;
   min-height: 385px;
+}
+
+.features-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 230px;
 }
 
 .wrapper-features-list {
