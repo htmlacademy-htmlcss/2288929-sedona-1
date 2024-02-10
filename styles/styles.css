@@ -315,6 +315,24 @@ body {
   text-align: center;
 }
 
+.search-wrapper {
+  margin: 96px 304px;
+}
+
+.search .lead-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.search .lead-description {
+  margin: 0;
+  margin-bottom: 54px;
+}
+
+.search-button {
+  padding: 8px 50px;
+}
+
 .subscription {
   color: var(--color-white);
   background-color: var(--color-light-blue);
