@@ -330,6 +330,9 @@ body {
 }
 
 .search-button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.8;
   padding: 8px 50px;
 }
 
@@ -342,19 +345,25 @@ body {
   background-repeat: no-repeat;
 }
 
+.subscription-wrapper {
+  padding: 96px 258px 104px 258px;
+}
+
+.subscription-wrapper .lead-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 .lead-description-inverse {
   font-size: 22px;
   line-height: 1.18;
+  margin: 0;
+  margin-bottom: 54px;
 }
 
 .button-subscription {
   background-color: var(--color-light-blue);
-}
-
-.search-button {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.8;
+  padding: 8px 50px;
 }
 
 .footer-container {
