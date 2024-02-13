@@ -590,7 +590,6 @@ margin-right: 28px;
   margin-right: 8px;
 }
 
-
 .pagination-link {
   color: var(--color-white);
   background-color: var(--color-light-blue);
@@ -604,7 +603,6 @@ margin-right: 28px;
   height: 60px;
   text-align: center;
   text-decoration: none;
-
 }
 
 .pagination-current {
