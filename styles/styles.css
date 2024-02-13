@@ -369,7 +369,7 @@ body {
 .footer-container {
   display: flex;
   max-width: 1200px;
-  padding: 0 70px;
+  padding: 40px 70px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -377,11 +377,18 @@ body {
 .social-list {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: space-between;
-  width: 142px;
-  margin-right: 41.5px;
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 142px;
+  margin-right: 41.5px;
+
+}
+
+.social-item {
+  min-width: 47px;
+  min-height: 40px;
 }
 
 .footer-phone {
