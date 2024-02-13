@@ -420,6 +420,7 @@ body {
   width: 1200px;
   box-sizing: border-box;
   padding: 0 70px;
+  margin-bottom: 50px;
 }
 
 .catalog-header-title {
@@ -504,12 +505,38 @@ margin-right: 28px;
   box-sizing: border-box;
 }
 
+.catalog-header-inner {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.sorting-container {
+  display: flex;
+  margin-left: auto;
+}
+
+.catalog-header-inner .lead-title {
+  margin: 6.5px 0;
+  padding: 0;
+  margin-right: 200px;
+}
+
 .catalog-view-buttons {
+  margin: 0;
+  padding: 0;
+  display: flex;
   list-style-type: none;
+  margin-left: 70px;
 }
 
 .catalog-view-button {
   background-color: var(--color-white);
+  width: 48px;
+  height: 48px;
+}
+
+.catalog-view-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .hotels-list {
