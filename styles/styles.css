@@ -484,7 +484,10 @@ margin-right: 28px;
   text-transform: uppercase;
   text-align: center;
 }
+
 .catalog-filter-list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
