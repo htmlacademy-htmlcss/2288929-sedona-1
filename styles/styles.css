@@ -464,6 +464,10 @@ margin-right: 28px;
   line-height: 21px;
 }
 
+.filters-form {
+  display: grid;
+}
+
 .button-submit {
   background-color: var(--color-light-blue);
   color: var(--color-white);
@@ -484,6 +488,8 @@ margin-right: 28px;
   text-align: center;
 }
 .catalog-filter-list {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
