@@ -464,9 +464,58 @@ margin-right: 28px;
   line-height: 21px;
 }
 
+.filters-form {
+  display: flex;
+  justify-content: space-between;
+}
+
 .filters-form fieldset {
   margin: 0;
   padding: 0;
+}
+
+.filters-form-title {
+  margin-bottom: 32px;
+}
+
+.catalog-filter-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.catalog-filter-price-wrapper {
+  margin-left: 70px;
+}
+
+.catalog-filter-list-price {
+  margin-left: auto;
+  width: 288px;
+  display: grid;
+  grid-template-columns: repeat(2, 143px);
+  gap: 2px;
+}
+
+/* .control-input-start,
+.control-start {
+  width: 100%;
+  grid-column: 1/2;
+  margin: 0;
+  padding: 0;
+}
+
+.control-input-end,
+.control-end {
+  width: 100%;
+  grid-column: 2/3;
+  margin: 0;
+  padding: 0;
+} */
+
+.filters-form-button-wrapper {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 104px;
 }
 
 .button-submit {
