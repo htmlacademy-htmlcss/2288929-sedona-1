@@ -440,7 +440,6 @@ body {
 .catalog-header-title {
   padding: 0;
   margin: 0;
-  /* padding-top: 35px; */
   margin-bottom: 8px;
 }
 
@@ -463,6 +462,11 @@ margin-right: 28px;
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
+}
+
+.filters-form fieldset {
+  margin: 0;
+  padding: 0;
 }
 
 .button-submit {
