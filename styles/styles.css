@@ -375,9 +375,21 @@ body {
   margin-bottom: 54px;
 }
 
+.subscription-form {
+  display: grid;
+  grid-template-columns: 452px 232px;
+}
+
+.subscription-filed {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+
 .button-subscription {
   background-color: var(--color-light-blue);
   padding: 8px 50px;
+  margin: 0;
 }
 
 .footer-container {
