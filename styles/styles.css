@@ -503,6 +503,7 @@ margin-right: 28px;
   width: 288px;
   display: grid;
   grid-template-columns: repeat(2, 143px);
+  grid-template-rows: 1fr 1fr;
   gap: 2px;
 }
 
@@ -516,6 +517,11 @@ margin-right: 28px;
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+.filter-price-input {
+  grid-column: 1/-1;
+  align-self: end;
 }
 
 .filters-form-button-wrapper {
@@ -620,8 +626,6 @@ margin-right: 28px;
 .catalog-hotels {
   margin-bottom: 80px;
 }
-
-
 
 .hotels-list {
   list-style-type: none;
