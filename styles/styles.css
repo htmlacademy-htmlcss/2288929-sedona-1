@@ -494,21 +494,17 @@ margin-right: 28px;
   gap: 2px;
 }
 
-/* .control-input-start,
-.control-start {
+.control-input-start {
   width: 100%;
-  grid-column: 1/2;
   margin: 0;
   padding: 0;
 }
 
-.control-input-end,
-.control-end {
+.control-input-end {
   width: 100%;
-  grid-column: 2/3;
   margin: 0;
   padding: 0;
-} */
+}
 
 .filters-form-button-wrapper {
   align-self: flex-end;
