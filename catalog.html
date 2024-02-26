@@ -89,6 +89,7 @@
                   </li>
                 </ul>
               </fieldset>
+
               <fieldset class="filters-form-group">
                 <legend class="filters-form-title">Тип Жилья:</legend>
                 <ul class="catalog-filter-list">
@@ -112,23 +113,32 @@
                   </li>
                 </ul>
               </fieldset>
-              <fieldset class="filters-form-group">
-                <legend class="filters-form-title">Стоимость, ₽:</legend>
-                <ul class="catalog-filter-list">
-                  <li class="catalog-filter-item">
-                    <label class="control">
-                      <input class="control-input" type="number" value="0" placeholder="от">
-                    </label>
-                  </li>
-                  <li class="catalog-filter-item">
-                    <label class="control">
-                      <input class="control-input" type="number" value="9000" placeholder="до">
-                    </label>
-                  </li>
-                </ul>
-              </fieldset>
-              <button class="button-submit" type="submit">Применить</button>
-              <button class="button-reset" type="reset">Сбросить</button>
+              <div class="catalog-filter-price-wrapper">
+                <fieldset class="filters-form-group">
+                  <legend class="filters-form-title">Стоимость, ₽:</legend>
+                  <ul class="catalog-filter-list catalog-filter-list-price">
+                    <li class="catalog-filter-item">
+                      <label class="control-start">
+                        <input class="control-input control-input-start" type="number" value="0" placeholder="от">
+                      </label>
+                    </li>
+                    <li class="catalog-filter-item">
+                      <label class="control-end">
+                        <input class="control-input control-input-end" type="number" value="9000" placeholder="до">
+                      </label>
+                    </li>
+                    <li>
+                        <input type="range" class="filter-price-input">
+                    </li>
+                  </ul>
+
+                </fieldset>
+              </div>
+
+              <div class="filters-form-button-wrapper">
+                <button class="button-submit" type="submit">Применить</button>
+                <button class="button-reset" type="reset">Сбросить</button>
+              </div>
             </form>
           </section>
         </header>
