@@ -441,6 +441,7 @@ body {
 }
 
 .social-link  {
+  position: relative;
   display: block;
   background-color: #ffffff;
   background-repeat: no-repeat;
@@ -449,22 +450,23 @@ body {
   height: 40px;
 }
 
-.social-link-vk {
-  background-image: url("../images/vkontakte.svg");
-  background-size: 24px 14px;
+.social-icon {
+  fill: #83b3d3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
-.social-link-tg {
-  background-image: url("../images/telegram.svg");
-  background-size: 18px 16px;
+.social-icon:hover {
+  fill:  #68a2ca;
 }
 
-.social-link-yt {
-  background-image: url("../images/youtube.svg");
-  background-size: 22px 17px;
+.social-icon:active {
+  fill: rgba(104, 162, 202, 0.3);
 }
-
-
 
 .footer-phone {
   color: var(--color-alternative-black);
