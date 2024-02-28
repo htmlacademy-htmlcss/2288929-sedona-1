@@ -521,7 +521,7 @@ margin-right: 28px;
 
 .filter-price-input {
   grid-column: 1/-1;
-  align-self: end;
+  align-items: end;
 }
 
 .filters-form-button-wrapper {
