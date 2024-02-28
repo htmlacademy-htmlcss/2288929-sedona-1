@@ -117,12 +117,14 @@ body {
   background-image: url("/images/search.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 20px 20px;
 }
 
 .navigation-user .navigation-item:nth-child(2) .navigation-link {
   background-image: url("/images/favorite.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: 20px 20px;
 }
 
 
