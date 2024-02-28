@@ -104,10 +104,28 @@ body {
 }
 
 .navigation-user .navigation-link {
-  min-width: 20px;
+  min-width: 44px;
   min-height: 20px;
   padding: 22px 12px;
 }
+
+.navigation-user .navigation-item:last-child {
+  margin-left: 20px;
+}
+
+.navigation-user .navigation-item:nth-child(1) .navigation-link {
+  background-image: url("/images/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-user .navigation-item:nth-child(2) .navigation-link {
+  background-image: url("/images/favorite.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 
 .button {
   background-color: #756157;
