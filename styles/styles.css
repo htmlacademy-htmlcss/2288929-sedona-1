@@ -440,6 +440,32 @@ body {
   min-height: 40px;
 }
 
+.social-link  {
+  display: block;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 47px;
+  height: 40px;
+}
+
+.social-link-vk {
+  background-image: url("../images/vkontakte.svg");
+  background-size: 24px 14px;
+}
+
+.social-link-tg {
+  background-image: url("../images/telegram.svg");
+  background-size: 18px 16px;
+}
+
+.social-link-yt {
+  background-image: url("../images/youtube.svg");
+  background-size: 22px 17px;
+}
+
+
+
 .footer-phone {
   color: var(--color-alternative-black);
   text-align: center;
