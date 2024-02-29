@@ -81,6 +81,7 @@ body {
 }
 
 .navigation-link {
+  position: relative;
   display: grid;
   box-sizing: border-box;
   padding: 16px;
@@ -140,7 +141,15 @@ body {
   background-size: 20px 20px;
 }
 
-
+.navigation-link-current::before {
+  content: "";
+  position: absolute;
+  right: 16px;
+  left: 16px;
+  bottom: 0;
+  height: 2px;
+  background-color: #756157;
+}
 
 .button {
   background-color: #756157;
