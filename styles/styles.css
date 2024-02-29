@@ -489,8 +489,27 @@ body {
 }
 
 .footer-logo {
+  position: relative;
   width: 115px;
   margin-left: auto;
+}
+
+.footer-logo-img {
+  fill: #000000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.footer-logo-img:hover {
+  fill: #756157;
+}
+
+.footer-logo-img:active {
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 /* Страница каталога */
