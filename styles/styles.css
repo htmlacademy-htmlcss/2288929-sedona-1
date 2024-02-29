@@ -57,10 +57,12 @@ body {
 }
 
 .navigation {
+  position: relative;
   max-width: 1200px;
   padding: 0 70px;
   display: flex;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .navigation-logo {
