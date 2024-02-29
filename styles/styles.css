@@ -160,6 +160,14 @@ body {
   margin: 14px 0;
 }
 
+.button-nav:hover, .search-button:hover {
+  background-color: #615048;
+}
+
+.button-nav:active, .search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .header {
   background-color: var(--color-white);
   color: var(--color-alternative-black);
