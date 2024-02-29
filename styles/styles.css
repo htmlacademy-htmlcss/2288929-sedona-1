@@ -480,6 +480,14 @@ body {
   padding: 0 195px;
 }
 
+.footer-phone:hover {
+  color: #756157;
+}
+
+.footer-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .footer-logo {
   width: 115px;
   margin-left: auto;
