@@ -253,6 +253,7 @@ body {
 }
 
 .features-item-wrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -268,6 +269,7 @@ body {
 
 .features-title {
   margin: 0;
+  margin-bottom: 62px;
 }
 
 .features-item p {
@@ -281,6 +283,28 @@ body {
 
 .wrapper-features-list-center {
   display: flex;
+}
+
+.features-item-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 86px;
+  bottom: 93px;
+  right: 85px;
+  left: 85px;
+  height: 2px;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+.features-item-inverse .features-item-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 86px;
+  bottom: 93px;
+  right: 85px;
+  left: 85px;
+  height: 2px;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 
 .lead-title {
