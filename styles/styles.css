@@ -402,6 +402,27 @@ body {
   background-color:  rgba(131, 179, 211, 0.12);
 }
 
+.entertainments-item-wrapper-house {
+  background-image: url("/images/house.svg");
+  background-repeat: no-repeat;
+  background-size: 75px 72px;
+  background-position: center 81px;
+}
+
+.entertainments-item-wrapper-food {
+  background-image: url("/images/food.svg");
+  background-repeat: no-repeat;
+  background-size: 73.8px 70px;
+  background-position: center 81px;
+}
+
+.entertainments-item-wrapper-souvenir {
+  background-image: url("/images/souvenir.svg");
+  background-repeat: no-repeat;
+  background-size: 64px 76px;
+  background-position: center 81px;
+}
+
 .search {
   text-align: center;
 }
