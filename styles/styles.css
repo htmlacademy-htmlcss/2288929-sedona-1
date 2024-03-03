@@ -733,7 +733,24 @@ body {
   line-height: 1.25;
   text-transform: uppercase;
   text-align: center;
+  padding: 8px 50px;
+  border-radius: 4px;
+  outline: none;
+  border: 0;
 }
+
+.button-submit:hover, .button-submit:focus  {
+  background-color:#68a2ca;
+}
+
+.button-submit:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-submit:disabled {
+  color: #e5e5e5;
+}
+
 
 .button-reset {
   background-color: transparent;
@@ -743,8 +760,27 @@ body {
   line-height: 1.25;
   text-transform: uppercase;
   text-align: center;
+  padding: 8px 57.5px;
+  border-radius: 4px;
+  border: 0;
 }
 
+.button-reset:hover {
+  opacity: 0.6;
+}
+
+.button-reset:focus {
+  outline: 3px solid #83b3d3;
+
+}
+
+.button-reset:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-reset:disabled {
+  opacity: 0.1;
+}
 .catalog-filter-list {
   margin: 0;
   padding: 0;
