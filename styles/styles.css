@@ -636,6 +636,7 @@ body {
   line-height: 21px;
 }
 
+
 .breadcrumbs-link-index {
   display: block;
   height: 15px;
@@ -645,15 +646,27 @@ body {
   background-size: 13px 15px;
 }
 
-.breadcrumbs-item:not(:last-child)::before {
+
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:hover {
+  opacity: 0.6;
+}
+
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:active {
+  opacity: 0.3;
+}
+
+.breadcrumbs-item:not(:last-child)::before{
   content: "";
   position: absolute;
   width: 8px;
-  height: 12px;
+  height: 21px;
   background-image: url("/images/arrow-right.svg");
   background-repeat: no-repeat;
-  top: 3px;
-  left: 24px;
+  background-position: center;
+  background-size: 8px 11px;
+  right: -20px;
+  top: 55%;
+  transform: translateY(-50%);
 }
 
 .filters-form {
