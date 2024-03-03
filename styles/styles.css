@@ -591,7 +591,6 @@ body {
 
 /* Страница каталога */
 
-
 .catalog-header {
   background-image: url("/images/filter.jpg");
   background-color: #756157;
@@ -616,19 +615,30 @@ body {
   margin: 0;
   list-style-type: none;
   margin-bottom: 40px;
+  align-items: center;
 }
 
-.breadcrumbs-item:first-child{
+.breadcrumbs-item:first-child {
   width: 13px;
   height: 15px;
 }
+
 .breadcrumbs-item:not(:last-child) {
-margin-right: 28px;
+  margin-right: 28px;
 }
 
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
+}
+
+.breadcrumbs-link-index {
+  display: block;
+  height: 15px;
+  background-image: url("/images/breadcrumbs-index.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px 12px;
 }
 
 .filters-form {
