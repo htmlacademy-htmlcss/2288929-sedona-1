@@ -995,7 +995,9 @@ body {
   margin-right: 8px;
 }
 
-.pagination-link {
+.pagination-link,
+.pagination-collapse,
+.pagination-current {
   color: var(--color-white);
   background-color: var(--color-light-blue);
   font-size: 20px;
@@ -1003,12 +1005,24 @@ body {
   line-height: 1.8;
   text-transform: uppercase;
   box-sizing: border-box;
+  border-radius: 4px;
   width: 60px;
   height: 60px;
   display: grid;
   place-items: center;
   padding: 5px;
   text-decoration: none;
+
+}
+
+.pagination-link:hover,
+.pagination-link:focus {
+  background-color: #68a2ca;
+  outline: 1px solid  #82b3d3;;
+}
+
+.pagination-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .pagination-current {
