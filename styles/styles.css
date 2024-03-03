@@ -618,6 +618,10 @@ body {
   align-items: center;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
 .breadcrumbs-item:first-child {
   width: 13px;
   height: 15px;
@@ -638,7 +642,18 @@ body {
   background-image: url("/images/breadcrumbs-index.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 12px 12px;
+  background-size: 13px 15px;
+}
+
+.breadcrumbs-item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 12px;
+  background-image: url("/images/arrow-right.svg");
+  background-repeat: no-repeat;
+  top: 3px;
+  left: 24px;
 }
 
 .filters-form {
