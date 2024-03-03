@@ -823,6 +823,26 @@ body {
   margin-bottom: 40px;
 }
 
+.select-control {
+  font-size: 18px;
+  line-height: 1.17;
+  width: 290px;
+  height: 49px;
+  padding: 14px 20px;
+  box-sizing: border-box;
+  border: 0;
+  outline: 2px solid #e5e5e5;
+}
+
+.select-control:hover,
+.select-control:focus {
+  outline: 2px solid #68a2ca;
+}
+
+.select-control:disabled {
+  outline: 2px solid rgba(0, 0, 0, 0.3);
+}
+
 .sorting-container {
   display: flex;
   margin-left: auto;
