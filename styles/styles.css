@@ -726,6 +726,7 @@ body {
 }
 
 .button-submit {
+  font-family: "PT sans", "Arial", sans-serif;
   background-color: var(--color-light-blue);
   color: var(--color-white);
   font-size: 16px;
@@ -753,6 +754,7 @@ body {
 
 
 .button-reset {
+  font-family: "PT sans", "Arial", sans-serif;
   background-color: transparent;
   color: var(--color-white);
   font-size: 16px;
@@ -930,16 +932,58 @@ body {
   color: var(--color-white);
   background-color: var(--color-light-blue);
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.25;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-.hotel-card {
+.hotel-card-button-favorite:hover,
+.hotel-card-button-favorite:focus {
+  background-color: #68a2ca;
+}
+
+.hotel-card-button-favorite:active,
+.button-favorite-added:active,
+.hotel-card-link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-favorite-added:hover,
+.button-favorite-added:focus{
+  background-color: #6c9e42;
+}
+
+hotel-card {
   box-sizing: border-box;
   width: 340px;
   padding: 20px;
   display: flex;
   flex-direction: column;
+}
+
+.hotel-card-link,
+.hotel-card-button-favorite,
+.hotel-rating-info {
+  font-family: "PT sans", "Arial", sans-serif;
+  display: grid;
+  place-items: center;
+  width: 140px;
+  height: 37px;
+  border-radius: 4px;
+  border: 0;
+}
+
+.hotel-card-link:hover,
+.hotel-card-link:focus {
+  background-color: #615048;
+}
+
+.hotel-card-link:disabled,
+.hotel-card-button-favorite:disabled,
+.button-favorite-added:disabled {
+  color: #ffffff;
+  background-color: #e5e5e5;
 }
 
 .hotel-card-photo {
