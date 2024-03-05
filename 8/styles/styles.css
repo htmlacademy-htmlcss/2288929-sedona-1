@@ -130,14 +130,14 @@ body {
 }
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link {
-  background-image: url("/images/search.svg");
+  background-image: url("../images/search.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 20px;
 }
 
 .navigation-user .navigation-item:nth-child(2) .navigation-link {
-  background-image: url("/images/favorite.svg");
+  background-image: url("../images/favorite.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px 20px;
@@ -154,7 +154,7 @@ body {
 }
 
 .button {
-  font-family: "PT sans", "Arial", sans-serif;
+  font-family: inherit;
   background-color: #756157;
   color: var(--color-white);
   font-size: 16px;
@@ -405,21 +405,21 @@ body {
 }
 
 .entertainments-item-wrapper-house {
-  background-image: url("/images/house.svg");
+  background-image: url("../images/house.svg");
   background-repeat: no-repeat;
   background-size: 75px 72px;
   background-position: center 81px;
 }
 
 .entertainments-item-wrapper-food {
-  background-image: url("/images/food.svg");
+  background-image: url("../images/food.svg");
   background-repeat: no-repeat;
   background-size: 73.8px 70px;
   background-position: center 81px;
 }
 
 .entertainments-item-wrapper-souvenir {
-  background-image: url("/images/souvenir.svg");
+  background-image: url("../images/souvenir.svg");
   background-repeat: no-repeat;
   background-size: 64px 76px;
   background-position: center 81px;
@@ -454,7 +454,7 @@ body {
   color: var(--color-white);
   background-color: var(--color-light-blue);
   text-align: center;
-  background-image: url("/images/subscribe.jpg");
+  background-image: url("../images/subscribe.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -493,6 +493,8 @@ body {
   margin: 0;
   border-radius: 0 4px 4px 0;
   cursor: pointer;
+  display: grid;
+  place-items: center;
 }
 
 .footer-container {
@@ -595,7 +597,7 @@ body {
 /* Страница каталога */
 
 .catalog-header {
-  background-image: url("/images/filter.jpg");
+  background-image: url("../images/filter.jpg");
   background-color: #756157;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -643,7 +645,7 @@ body {
 .breadcrumbs-link-index {
   display: block;
   height: 15px;
-  background-image: url("/images/breadcrumbs-index.svg");
+  background-image: url("../images/breadcrumbs-index.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 13px 15px;
@@ -744,6 +746,7 @@ body {
 }
 
 .button-submit:hover, .button-submit:focus  {
+  cursor: pointer;
   background-color:#68a2ca;
 }
 
@@ -753,6 +756,7 @@ body {
 
 .button-submit:disabled {
   color: #e5e5e5;
+  pointer-events: none;
 }
 
 
@@ -772,11 +776,11 @@ body {
 
 .button-reset:hover {
   opacity: 0.6;
+  cursor: pointer;
 }
 
 .button-reset:focus {
   outline: 3px solid #83b3d3;
-
 }
 
 .button-reset:active {
@@ -785,6 +789,7 @@ body {
 
 .button-reset:disabled {
   opacity: 0.1;
+  pointer-events: none;
 }
 .catalog-filter-list {
   margin: 0;
@@ -846,6 +851,7 @@ body {
 
 .select-control:disabled {
   outline: 2px solid rgba(0, 0, 0, 0.3);
+  pointer-events: none;
 }
 
 .sorting-container {
@@ -957,7 +963,7 @@ body {
   background-color: #6c9e42;
 }
 
-hotel-card {
+.hotel-card {
   box-sizing: border-box;
   width: 340px;
   padding: 20px;
@@ -987,6 +993,7 @@ hotel-card {
 .button-favorite-added:disabled {
   color: #ffffff;
   background-color: #e5e5e5;
+  pointer-events: none;
 }
 
 .hotel-card-photo {
