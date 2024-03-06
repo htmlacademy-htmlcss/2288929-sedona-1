@@ -665,7 +665,7 @@ body {
   position: absolute;
   width: 8px;
   height: 21px;
-  background-image: url("/images/arrow-right.svg");
+  background-image: url("../images/arrow-right.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 8px 11px;
@@ -731,7 +731,7 @@ body {
 }
 
 .button-submit {
-  font-family: "PT sans", "Arial", sans-serif;
+  font-family: inherit;
   background-color: var(--color-light-blue);
   color: var(--color-white);
   font-size: 16px;
@@ -761,7 +761,7 @@ body {
 
 
 .button-reset {
-  font-family: "PT sans", "Arial", sans-serif;
+  font-family: inherit;
   background-color: transparent;
   color: var(--color-white);
   font-size: 16px;
@@ -894,21 +894,21 @@ body {
 
 .catalog-view-button-grid {
   display: block;
-  background-image: url("/images/grid.svg");
+  background-image: url("../images/grid.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .catalog-view-button-card {
   display: block;
-  background-image: url("/images/card.svg");
+  background-image: url("../images/card.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .catalog-view-button-list {
   display: block;
-  background-image: url("/images/list.svg");
+  background-image: url("../images/list.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
