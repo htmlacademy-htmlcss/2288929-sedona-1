@@ -693,6 +693,16 @@ body {
   position: relative;
 }
 
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-white);
+  border-radius: 4px;
+  left: 0;
+  top: 1.5px;
+}
+
 .filters-form-title {
   margin-bottom: 32px;
 }
