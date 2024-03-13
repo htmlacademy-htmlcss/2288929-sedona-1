@@ -687,6 +687,12 @@ body {
   border: 0;
 }
 
+.control {
+  padding-left: 36px;
+  display: block;
+  position: relative;
+}
+
 .filters-form-title {
   margin-bottom: 32px;
 }
