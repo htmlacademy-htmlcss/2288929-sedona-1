@@ -645,7 +645,6 @@ body {
   line-height: 21px;
 }
 
-
 .breadcrumbs-link-index {
   display: block;
   height: 15px;
@@ -654,7 +653,6 @@ body {
   background-position: center;
   background-size: 13px 15px;
 }
-
 
 .breadcrumbs-item:not(:last-child) .breadcrumbs-link:hover {
   opacity: 0.6;
@@ -683,9 +681,10 @@ body {
   justify-content: space-between;
 }
 
-.filters-form fieldset {
+.filters-form-group {
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 .filters-form-title {
