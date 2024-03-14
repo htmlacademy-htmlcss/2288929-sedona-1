@@ -703,6 +703,22 @@ body {
   top: 1.5px;
 }
 
+.control:hover .control-mark,
+.control:hover .control-label {
+  opacity: 0.6;
+}
+
+.control:active .control-mark,
+.control:active .control-label {
+  opacity: 0.3;
+}
+
+.control-input:focus + .control-mark {
+  outline: 3px solid #83b3d3;
+}
+
+
+
 .filters-form-title {
   margin-bottom: 32px;
 }
