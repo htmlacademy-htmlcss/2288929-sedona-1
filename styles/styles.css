@@ -788,13 +788,30 @@ body {
   margin-top: 48px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
-
 }
 
 .range-bar {
   position: absolute;
   height: 4px;
   background-color: var(--color-white);
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+
+.range-toggle:focus {
+  outline: 3px solid #82b3d3;
+}
+
+.range-toggle:active {
+  outline: 2px solid #82b3d3;
 }
 
 .filters-form-button-wrapper {
