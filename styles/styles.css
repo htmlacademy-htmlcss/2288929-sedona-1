@@ -814,6 +814,16 @@ body {
   outline: 2px solid #82b3d3;
 }
 
+.toggle-min {
+  top: -8px;
+  left: 0;
+}
+
+.toggle-max {
+  top: -8px;
+  left: 221px;
+}
+
 .filters-form-button-wrapper {
   align-self: flex-end;
   display: flex;
