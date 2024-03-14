@@ -727,7 +727,23 @@ body {
   outline: 3px solid #83b3d3;
 }
 
+.control-input[type="checkbox"]:checked + .control-mark {
+  background-image: url("../images/check.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #3f5e72;
+  top: 5px;
+  left: 5px;
+
+}
 
 .filters-form-title {
   margin-bottom: 32px;
