@@ -122,21 +122,21 @@
               <div class="catalog-filter-price-wrapper">
                 <fieldset class="filters-form-group">
                   <legend class="filters-form-title">Стоимость, ₽:</legend>
-                  <ul class="catalog-filter-list catalog-filter-list-price">
-                    <li class="catalog-filter-item">
+                  <div class="catalog-filter-list catalog-filter-list-price">
                       <label class="control-start">
                         <input class="control-input control-input-start" type="number" value="0" placeholder="от">
                       </label>
-                    </li>
-                    <li class="catalog-filter-item">
                       <label class="control-end">
                         <input class="control-input control-input-end" type="number" value="9000" placeholder="до">
                       </label>
-                    </li>
-                    <li>
-                        <input type="range" class="filter-price-input">
-                    </li>
-                  </ul>
+                      <div class="range">
+                        <div class="range-scale">
+                          <div class="range-bar" style="left:0; width: 226px;">
+                            <button type="button" class="range-toggle toggle-min"></button>
+                            <button type="button" class="range-toggle toggle-max"></button>
+                          </div>
+                        </div>
+                      </div>
 
                 </fieldset>
               </div>
