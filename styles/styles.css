@@ -766,22 +766,53 @@ body {
   gap: 2px; */
 }
 
-.control-input-start {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.range-wrapper-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
 }
 
-.control-input-end {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.range-input {
+  box-sizing: border-box;
+  width: 143px;
+  padding: 12px 20px;
+  font-weight: 700;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.33;
+  border: 0;
 }
 
-.filter-price-input {
-  grid-column: 1/-1;
-  align-items: end;
+.range-input-start {
+  border-radius: 4px 0 0 4px;
 }
+
+.range-input-end {
+  border-radius: 0 4px 4px 0;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.range-input:focus {
+  outline: 3px solid #82b3d3;
+}
+
+.range-input:not(:placeholder-shown) {
+  outline: 2px solid var(--color-alternative-black);
+}
+
+.range-input::placeholder {
+  opacity: 0.3;
+}
+
+.range-input:placeholder-shown {
+  text-align: right;
+}
+
 
 .range-scale {
   position: relative;
