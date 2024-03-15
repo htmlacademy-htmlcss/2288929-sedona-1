@@ -1297,7 +1297,13 @@ body {
   width: 440px;
   padding: 12px 20px;
   box-sizing: border-box;
+}
 
+.modal-input-adults-count,
+.modal-input-childrens-count {
+  width: 110px;
+  padding: 14px 10px;
+  margin-left: 46px;
 }
 
 .modal-content .lead-title {
