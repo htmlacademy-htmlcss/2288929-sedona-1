@@ -1264,6 +1264,12 @@ body {
   margin: auto;
 }
 
+.modal-form {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 48px;
+}
+
 .modal-search {
   width: 577px;
   position: relative;
