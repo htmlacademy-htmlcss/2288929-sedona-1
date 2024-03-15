@@ -1286,6 +1286,20 @@ body {
   position: relative;
 }
 
+.modal-input {
+  padding: 0;
+  border: 0;
+  background-color: var(--color-grey);
+  border-radius: 4px;
+}
+
+.modal-input-date {
+  width: 440px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+
+}
+
 .modal-content .lead-title {
   font-size: 30px;
   font-weight: 700;
