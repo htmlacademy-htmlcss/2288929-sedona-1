@@ -1254,3 +1254,12 @@ body {
   z-index: 2;
   display: flex;
 }
+
+.modal {
+  position: relative;
+  padding: 64px 70px;
+  border-radius: 30px;
+  background-color: var(--color-white);
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
