@@ -1265,7 +1265,7 @@ body {
 }
 
 .modal-search {
-  width: 717px;
+  width: 577px;
   position: relative;
 }
 
@@ -1304,4 +1304,12 @@ body {
 .modal-form p {
   padding: 0;
   margin: 0;
+}
+
+.button-modal-submit {
+  background-color: #83b3d3;
+  padding: 18px 77px;
+  border-radius: 10px;
+  width: 577px;
+  cursor: pointer;
 }
