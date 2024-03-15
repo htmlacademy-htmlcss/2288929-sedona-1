@@ -1300,3 +1300,8 @@ body {
   line-height: 1.2;
   text-transform: capitalize;
 }
+
+.modal-form-date {
+  padding: 0;
+  margin: 0;
+}
