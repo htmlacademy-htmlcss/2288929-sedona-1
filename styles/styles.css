@@ -834,7 +834,7 @@ body {
   background-color: var(--color-white);
   border-radius: 5px;
   border: 0;
-  cursor: pointer;
+  cursor: grab;
 }
 
 .range-toggle:focus {
