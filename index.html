@@ -214,7 +214,25 @@
         </button>
         <section class="modal-content">
           <h2 class="lead-title">Поиск гостиницы в Седоне</h2>
-
+          <form action="https://echo.htmlacademy.ru/" class="modal-form" method="post">
+            <label class="modal-label">
+              Дата заезда:
+              <input type="date" name="checkin-input">
+            </label>
+            <label class="modal-label">
+              Дата выезда:
+              <input type="date" name="checkout-input">
+            </label>
+            <label class="modal-label">
+              Взрослые:
+              <input type="number" name="checkout-input">
+            </label>
+            <label class="modal-label">
+              Дети:
+              <input type="number" name="checkout-input">
+            </label>
+            <button type="submit" class=" button button-modal-submit">Найти</button>
+          </form>
         </section>
       </div>
     </div>
