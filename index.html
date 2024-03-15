@@ -217,19 +217,19 @@
           <form action="https://echo.htmlacademy.ru/" class="modal-form" method="post">
             <label class="modal-label">
               Дата заезда:
-              <input type="date" class="modal-input modal-input-date" name="checkin-input">
+              <input type="date" class="modal-input modal-input-date" name="checkin-date" required>
             </label>
             <label class="modal-label">
               Дата выезда:
-              <input type="date" class="modal-input modal-input-date" name="checkout-input">
+              <input type="date" class="modal-input modal-input-date" name="checkout-date" required>
             </label>
             <label class="modal-label">
               Взрослые:
-              <input type="number" class="modal-input modal-input-adult-count" name="checkout-input">
+              <input type="number" class="modal-input modal-input-adults-count" name="adults-count" required>
             </label>
             <label class="modal-label">
               Дети:
-              <input type="number" class="modal-input modal-input-children-count" name="checkout-input">
+              <input type="number" class="modal-input modal-input-childrens-count" name="childrens-count" required>
             </label>
             <button type="submit" class="button button-modal-submit">Найти</button>
           </form>
