@@ -217,28 +217,23 @@
           <h2 class="lead-title">Поиск гостиницы в Седоне</h2>
           <form action="https://echo.htmlacademy.ru/" class="modal-form" method="post">
             <p class="modal-form-date">
-              <label class="modal-label">Дата заезда:</label>
-              <input type="date" class="modal-input modal-input-date" name="checkin-date" required>
+              <label class="modal-label" for="checkin-input">Дата заезда:</label>
+              <input type="date" class="modal-input modal-input-date" name="checkin-date" id="checkin-input" required>
             </p>
 
             <p class="modal-form-date">
-              <label class="modal-label">Дата выезда:</label>
-              <input type="date" class="modal-input modal-input-date" name="checkout-date" required>
+              <label class="modal-label" for="checkout-input">Дата выезда:</label>
+              <input type="date" class="modal-input modal-input-date" name="checkout-date" id="checkout-input" required>
             </p>
 
             <div class="visitors-input-wrapper">
               <p class="modal-form-adults">
-                <label class="modal-label">
-                  Взрослые:
-                  <input type="number" class="modal-input modal-input-adults-count" name="adults-count" required>
-                </label>
+                <label class="modal-label" for="adults-input">Взрослые:</label>
+                <input type="number" class="modal-input modal-input-adults-count" name="adults-count" id="adults-input" required>
               </p>
-
               <p class="modal-form-childrens">
-                <label class="modal-label">
-                  Дети:
-                  <input type="number" class="modal-input modal-input-childrens-count" name="childrens-count" required>
-                </label>
+                <label class="modal-label" for="childrens-input">Дети:</label>
+                <input type="number" class="modal-input modal-input-childrens-count" name="childrens-count" id="childrens-input" required>
               </p>
           </div>
             <button type="submit" class="button button-modal-submit">Найти</button>
