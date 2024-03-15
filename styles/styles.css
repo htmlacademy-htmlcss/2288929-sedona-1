@@ -1291,6 +1291,16 @@ body {
   border: 0;
   background-color: var(--color-grey);
   border-radius: 4px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: 700;
+}
+
+.modal-input::-webkit-outer-spin-button,
+.modal-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
 
 .modal-input-date {
@@ -1304,6 +1314,7 @@ body {
   width: 110px;
   padding: 14px 10px;
   margin-left: 46px;
+  text-align: center;
 }
 
 .modal-content .lead-title {
