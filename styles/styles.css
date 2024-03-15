@@ -1270,6 +1270,17 @@ body {
   row-gap: 48px;
 }
 
+.modal-form-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visitors-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .modal-search {
   width: 577px;
   position: relative;
