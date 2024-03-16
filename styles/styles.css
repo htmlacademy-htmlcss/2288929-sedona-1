@@ -1329,26 +1329,6 @@ body {
   margin-left: 82px;
 }
 
-/* .modal-label-children {
-  position: relative;
-  padding-right: 36px;
-  background-image: url("../images/i-white.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-color: tomato;
-} */
-
-/* .modal-label-children::after {
-  position: absolute;
-  content: "";
-  width: 26px;
-  height: 26px;
-  background-color: #82b3d3;
-  border-radius: 50%;
-  right: 0;
-  top: 0;
-} */
-
 .tooltip {
   position: absolute;
   margin-top: 13px;
