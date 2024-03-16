@@ -1329,6 +1329,69 @@ body {
   margin-left: 82px;
 }
 
+.modal-content .lead-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 64px;
+}
+
+.modal-close-button {
+  position: absolute;
+  padding: 0;
+  right: 52px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: var(--color-grey);
+  background-image: url("../images/cross.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border: 0;
+}
+
+.modal-close-button:hover {
+  background-color: #e6e6e6;
+}
+
+.modal-close-button:focus {
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
+}
+
+.modal-close-button:active {
+  opacity: 0.6;
+}
+
+.modal-label {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+
+.modal-form p {
+  padding: 0;
+  margin: 0;
+}
+
+.button-modal-submit {
+  background-color: #83b3d3;
+  padding: 18px 77px;
+  border-radius: 10px;
+  width: 577px;
+  cursor: pointer;
+}
+
+/* .modal-close {
+  display: none
+}
+ */
+
 .tooltip {
   position: absolute;
   margin-top: 13px;
@@ -1387,53 +1450,3 @@ body {
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
 }
-
-.modal-content .lead-title {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 64px;
-}
-
-.modal-close-button {
-  position: absolute;
-  padding: 0;
-  right: 52px;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background-color: var(--color-grey);
-  background-image: url("../images/cross.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-  border: 0;
-}
-
-.modal-label {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 1.2;
-  text-transform: capitalize;
-}
-
-.modal-form p {
-  padding: 0;
-  margin: 0;
-}
-
-.button-modal-submit {
-  background-color: #83b3d3;
-  padding: 18px 77px;
-  border-radius: 10px;
-  width: 577px;
-  cursor: pointer;
-}
-
-/* .modal-close {
-  display: none
-}
- */
