@@ -1388,6 +1388,14 @@ body {
   cursor: pointer;
 }
 
+.button-modal-submit:hover, .button-modal-submit:focus {
+  background-color: #68a2ca;
+}
+
+.button-modal-submit:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .warning {
   position: absolute;
   top: 54px;
@@ -1406,9 +1414,9 @@ body {
 }
 
 /* .modal-close {
-  display: none
-}
- */
+  display: none;
+} */
+
 
 .tooltip {
   position: absolute;
