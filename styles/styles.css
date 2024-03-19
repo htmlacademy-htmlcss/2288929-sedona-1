@@ -742,7 +742,6 @@ body {
   background-color: #3f5e72;
   top: 5px;
   left: 5px;
-
 }
 
 .filters-form-title {
@@ -760,10 +759,6 @@ body {
 .catalog-filter-list-price {
   margin-left: auto;
   width: 288px;
-/*   display: grid;
-  grid-template-columns: repeat(2, 143px);
-  grid-template-rows: 1fr 1fr;
-  gap: 2px; */
 }
 
 .range-wrapper-inputs {
@@ -1374,6 +1369,25 @@ body {
   line-height: 1.2;
   text-transform: capitalize;
 }
+
+.modal-input::placeholder{
+  opacity: 0.6;
+}
+
+.modal-input:hover {
+  background-color:  #e6e6e6;
+}
+
+.modal-input:focus {
+  outline: 3px solid #83b3d3;
+  background-color:  #e6e6e6;
+}
+
+.modal-input:not(:placeholder-shown) {
+  outline: 2px solid var(--color-alternative-black);
+  background-color: var(--color-grey);
+}
+
 
 .modal-form p {
   padding: 0;
