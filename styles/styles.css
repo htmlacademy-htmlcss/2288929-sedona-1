@@ -1314,7 +1314,6 @@ body {
   width: 110px;
   padding: 14px 10px;
   text-align: center;
-  box-sizing: border-box;
 }
 
 .modal-input-adults-count {
@@ -1323,6 +1322,24 @@ body {
 
 .modal-input-childrens-count {
   margin-left: 82px;
+}
+
+.modal-input::placeholder{
+  opacity: 0.6;
+}
+
+.modal-input:hover {
+  background-color:  #e6e6e6;
+}
+
+.modal-input:focus {
+  outline: 3px solid #83b3d3;
+  background-color:  #e6e6e6;
+}
+
+.modal-input:not(:placeholder-shown) {
+  outline: 2px solid var(--color-alternative-black);
+  background-color: var(--color-grey);
 }
 
 .modal-content .lead-title {
@@ -1370,29 +1387,24 @@ body {
   text-transform: capitalize;
 }
 
-.modal-input::placeholder{
-  opacity: 0.6;
-}
-
-.modal-input:hover {
-  background-color:  #e6e6e6;
-}
-
-.modal-input:focus {
-  outline: 3px solid #83b3d3;
-  background-color:  #e6e6e6;
-}
-
-.modal-input:not(:placeholder-shown) {
-  outline: 2px solid var(--color-alternative-black);
-  background-color: var(--color-grey);
-}
-
-
 .modal-form p {
   padding: 0;
   margin: 0;
 }
+
+.guests-count-control {
+  width: 40px;
+  height: 48px;
+  padding: 14px 10px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+
+
 
 .button-modal-submit {
   background-color: #83b3d3;
