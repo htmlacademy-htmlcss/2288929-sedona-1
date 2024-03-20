@@ -1403,6 +1403,22 @@ body {
 
 }
 
+.adults-count-control-down,
+.childrens-count-control-down {
+  background-image: url("../images/minus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+}
+
+.adults-count-control-up,
+.childrens-count-control-up {
+  background-image: url("../images/plus.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+}
+
 
 
 
