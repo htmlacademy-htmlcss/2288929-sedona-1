@@ -1261,7 +1261,6 @@ body {
 
 .modal-form {
   display: grid;
-  grid-template-rows: repeat(4, 1fr);
   row-gap: 48px;
 }
 
@@ -1274,7 +1273,11 @@ body {
 
 .visitors-input-wrapper {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-label-adults {
+  margin-right: 46px;
 }
 
 .modal-search {
@@ -1283,10 +1286,10 @@ body {
 }
 
 .modal-input {
+  margin: 0;
   padding: 0;
   border: 0;
   background-color: var(--color-grey);
-  border-radius: 4px;
   font-family: inherit;
   font-size: 18px;
   line-height: 1.33;
@@ -1307,21 +1310,74 @@ body {
   background-repeat: no-repeat;
   background-position: center right 25px;
   background-size: 20px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.count-control-wrapper {
+  display: grid;
+  width: 111px;
+  height: 48px;
+  grid-template-columns: 40px 31px 40px;
+  place-items: center;
+}
+
+.count-control-wrapper:first-of-type {
+  margin-right: 88px;
+}
+
+.count-control-wrapper:last-of-type{
+  margin-left: 82px;
 }
 
 .modal-input-adults-count,
 .modal-input-childrens-count {
-  width: 110px;
-  padding: 14px 10px;
+  width: 31px;
+  height: 100%;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
-.modal-input-adults-count {
-  margin-left: 40px;
+.guests-count-control {
+  width: 40px;
+  height: 100%;
+  padding: 0;
+  border: none;
+  background-color: var(--color-grey);
+  cursor: pointer;
 }
 
-.modal-input-childrens-count {
-  margin-left: 82px;
+.adults-count-control-down,
+.childrens-count-control-down {
+  border-radius: 4px 0 0 4px;
+}
+
+.adults-count-control-up,
+.childrens-count-control-up {
+  border-radius: 0 4px 4px 0;
+}
+
+.guests-count-control-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  opacity: 0.3;
+}
+
+.guests-count-control:hover .guests-count-control-icon {
+  opacity: 1;
+  fill: #000000;
+}
+
+.guests-count-control:focus {
+  outline: none;
+}
+
+.guests-count-control:focus .guests-count-control-icon{
+  opacity: 1;
+  fill: #000000;
+  outline: 3px solid #82b3d3;
 }
 
 .modal-input::placeholder{
@@ -1337,10 +1393,10 @@ body {
   background-color:  #e6e6e6;
 }
 
-.modal-input:not(:placeholder-shown) {
+/* .modal-input:not(:placeholder-shown) {
   outline: 2px solid var(--color-alternative-black);
   background-color: var(--color-grey);
-}
+} */
 
 .modal-content .lead-title {
   font-size: 30px;
@@ -1392,45 +1448,17 @@ body {
   margin: 0;
 }
 
-.guests-count-control {
-  width: 20px;
-  height: 20px;
-  padding: 14px 10px;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-  box-sizing: content-box;
-
-}
-
-.guests-count-control-icon {
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  opacity: 0.3;
-}
-
-.guests-count-control:hover .guests-count-control-icon {
-  opacity: 1;
-  fill: #000000;
-}
-
-.guests-count-control:focus {
-  outline: none;
-}
-
-.guests-count-control:focus .guests-count-control-icon{
-  opacity: 1;
-  fill: #000000;
-  outline: 3px solid #82b3d3;
+.modal-form-childrens {
+  margin-left: auto;
 }
 
 .button-modal-submit {
   background-color: #83b3d3;
-  padding: 18px 77px;
+  height: 60px;
   border-radius: 10px;
   width: 577px;
   cursor: pointer;
+  box-sizing: border-box;
 }
 
 .button-modal-submit:hover, .button-modal-submit:focus {
@@ -1465,7 +1493,6 @@ body {
 
 .tooltip {
   position: absolute;
-  margin-top: 13px;
   margin-left: 10px;
   width: 26px;
   height: 26px;
