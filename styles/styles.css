@@ -1393,34 +1393,37 @@ body {
 }
 
 .guests-count-control {
-  width: 40px;
-  height: 48px;
+  width: 20px;
+  height: 20px;
   padding: 14px 10px;
-  box-sizing: border-box;
   border: none;
   background-color: transparent;
   cursor: pointer;
+  box-sizing: content-box;
 
 }
 
-.adults-count-control-down,
-.childrens-count-control-down {
-  background-image: url("../images/minus.svg");
-  background-repeat: no-repeat;
-  background-position: center;
+.guests-count-control-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
   opacity: 0.3;
 }
 
-.adults-count-control-up,
-.childrens-count-control-up {
-  background-image: url("../images/plus.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.3;
+.guests-count-control:hover .guests-count-control-icon {
+  opacity: 1;
+  fill: #000000;
 }
 
+.guests-count-control:focus {
+  outline: none;
+}
 
-
+.guests-count-control:focus .guests-count-control-icon{
+  opacity: 1;
+  fill: #000000;
+  outline: 3px solid #82b3d3;
+}
 
 .button-modal-submit {
   background-color: #83b3d3;
