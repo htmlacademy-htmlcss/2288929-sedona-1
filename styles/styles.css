@@ -1259,6 +1259,10 @@ body {
   margin: auto;
 }
 
+/* .modal-close {
+  display: none;
+} */
+
 .modal-form {
   display: grid;
   row-gap: 48px;
@@ -1478,6 +1482,10 @@ body {
   line-height: 1.31;
 }
 
+/* .warning-close {
+  display: none;
+} */
+
 .message {
   position: absolute;
   top: 54px;
@@ -1486,10 +1494,9 @@ body {
   line-height: 1.31;
 }
 
-/* .modal-close {
+/* .message-close {
   display: none;
 } */
-
 
 .tooltip {
   position: absolute;
