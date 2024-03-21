@@ -995,6 +995,7 @@ body {
   padding: 14px 20px;
   box-sizing: border-box;
   border: 2px solid #e5e5e5;
+  background-color: var(--color-white);
   border-radius: 4px;
   appearance: none;
   background-image: url("../images/arrow-down.svg");
@@ -1356,6 +1357,7 @@ body {
   appearance: none;
   margin: 0;
 }
+
 
 .modal-input-date {
   width: 440px;
