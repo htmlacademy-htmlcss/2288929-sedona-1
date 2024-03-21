@@ -1329,10 +1329,24 @@ body {
   line-height: 1.33;
   font-weight: 700;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
-.modal-input::-webkit-outer-spin-button,
-.modal-input::-webkit-inner-spin-button {
+.modal-input-count {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: var(--color-grey);
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: 700;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.modal-input-count::-webkit-outer-spin-button,
+.modal-input-count::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
 }
@@ -1427,10 +1441,10 @@ body {
   background-color:  #e6e6e6;
 }
 
-/* .modal-input:not(:placeholder-shown) {
+.modal-input:not(:placeholder-shown):hover {
   outline: 2px solid var(--color-alternative-black);
   background-color: var(--color-grey);
-} */
+}
 
 .modal-content .lead-title {
   font-size: 30px;
