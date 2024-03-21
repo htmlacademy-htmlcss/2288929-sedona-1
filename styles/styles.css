@@ -1358,6 +1358,9 @@ body {
   margin: 0;
 }
 
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
 .modal-input-date {
   width: 440px;
