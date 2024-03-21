@@ -992,17 +992,23 @@ body {
   height: 49px;
   padding: 14px 20px;
   box-sizing: border-box;
-  border: 0;
-  outline: 2px solid #e5e5e5;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  appearance: none;
+  background-image: url("../images/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 9px;
+  background-position: right 21px center;
+  cursor: pointer;
 }
 
 .select-control:hover,
 .select-control:focus {
-  outline: 2px solid #68a2ca;
+  border: 2px solid #68a2ca;
 }
 
 .select-control:disabled {
-  outline: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   pointer-events: none;
 }
 
