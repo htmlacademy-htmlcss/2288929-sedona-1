@@ -800,6 +800,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   border: 0;
+  cursor: pointer;
 }
 
 .range-input-start {
@@ -820,7 +821,7 @@ body {
   outline: 3px solid #82b3d3;
 }
 
-.range-input:not(:placeholder-shown) {
+.range-input:not(:placeholder-shown):hover {
   outline: 2px solid var(--color-alternative-black);
 }
 
@@ -897,7 +898,8 @@ body {
   border: 0;
 }
 
-.button-submit:hover, .button-submit:focus  {
+.button-submit:hover,
+.button-submit:focus  {
   cursor: pointer;
   background-color:#68a2ca;
 }
@@ -1005,6 +1007,10 @@ body {
 .select-control:hover,
 .select-control:focus {
   border: 2px solid #68a2ca;
+}
+
+.modal-input:not(:placeholder-shown):hover {
+  border: 2px solid #3f5e72;
 }
 
 .select-control:disabled {
