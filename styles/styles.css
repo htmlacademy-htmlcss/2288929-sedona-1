@@ -935,7 +935,6 @@ body {
   pointer-events: none;
 }
 
-
 .button-reset {
   font-family: inherit;
   background-color: transparent;
@@ -967,6 +966,7 @@ body {
   opacity: 0.1;
   pointer-events: none;
 }
+
 .catalog-filter-list {
   margin: 0;
   padding: 0;
@@ -1030,6 +1030,7 @@ body {
 .select-control:hover,
 .select-control:focus {
   border: 2px solid #68a2ca;
+  outline: none;
 }
 
 .modal-input:not(:placeholder-shown):hover {
