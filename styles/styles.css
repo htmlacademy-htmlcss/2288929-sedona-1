@@ -1039,10 +1039,6 @@ body {
   outline: none;
 }
 
-.modal-input:not(:placeholder-shown):hover {
-  border: 2px solid #3f5e72;
-}
-
 .select-control:disabled {
   border: 2px solid rgba(0, 0, 0, 0.3);
   pointer-events: none;
@@ -1325,10 +1321,10 @@ body {
   margin: auto;
 }
 
-.modal-close {
+/* .modal-close {
   display: none;
 }
-
+ */
 .modal-form {
   display: grid;
   row-gap: 48px;
