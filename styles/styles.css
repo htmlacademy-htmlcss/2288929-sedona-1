@@ -1366,7 +1366,7 @@ body {
 
 .modal-input-count {
   margin: 0;
-  padding: 0;
+  padding: 5px;
   border: 0;
   background-color: var(--color-grey);
   font-family: inherit;
@@ -1375,6 +1375,9 @@ body {
   font-weight: 700;
   box-sizing: border-box;
   cursor: pointer;
+  width: 31px;
+  height: 100%;
+  text-align: center;
 }
 
 .modal-input-count::-webkit-outer-spin-button,
@@ -1412,15 +1415,6 @@ input[type=number] {
 
 .count-control-wrapper:last-of-type{
   margin-left: 82px;
-}
-
-.modal-input-adults-count,
-.modal-input-childrens-count {
-  width: 31px;
-  height: 100%;
-  text-align: center;
-  padding: 0;
-  margin: 0;
 }
 
 .guests-count-control {
