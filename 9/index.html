@@ -69,62 +69,60 @@
           <p class="lead-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
           <p class="lead-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           <ul class="features-list">
-            <div class="wrapper-features-list">
-              <li>
-                <img src="images/photo-1.jpg" width="800" height="385" alt="Здания в Седоне." class="features-photo">
-              </li>
-              <li class="features-item features-item-inverse">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title ">Настоящий городок</h3>
-                  <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-                </div>
-              </li>
-            </div>
+            <li class="features-item features-photo-town">
+              <img src="images/photo-1.jpg" width="800" height="385" alt="Здания в Седоне." class="features-photo">
+            </li>
 
-            <div class="wrapper-features-list-center">
-              <li class="features-item">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title">Небольшая площадь</h3>
-                  <p>Все достопримечательности находятся очень близко</p>
-                </div>
-              </li>
-              <li class="features-item features-item-blue">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title">
-                    <span class="features-title-wrapper">
-                      Красивая дорога
-                    </span>
-                  </h3>
-                  <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-                </div>
-              </li>
-              <li class="features-item">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title">
-                    <span class="features-title-wrapper">
-                      Мало туристов
-                    </span>
-                  </h3>
-                  <p>Большинство едет в Гранд Каньон и толпится там</p>
-                </div>
-              </li>
-            </div>
+            <li class="features-item features-item-inverse features-city">
+              <div class="features-item-wrapper">
+                <h3 class="features-title ">Настоящий городок</h3>
+                <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              </div>
+            </li>
 
-            <div class="wrapper-features-list">
-              <li class="features-item features-item-inverse">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title features-title-inverse">
-                    <span class="features-title-wrapper">
-                      Там есть<br>мост дьявола
-                    </span>
-                  </h3>
-                  <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-                </div>
-              </li>
-              <li>
-                <img src="images/photo-2.jpg" width="800" height="385" alt="Мост дьявола." class="features-photo">
-              </li>
-            </div>
+            <li class="features-item features-square">
+              <div class="features-item-wrapper">
+                <h3 class="features-title">Небольшая площадь</h3>
+                <p>Все достопримечательности находятся очень близко</p>
+              </div>
+            </li>
+
+            <li class="features-item features-item-blue features-road">
+              <div class="features-item-wrapper">
+                <h3 class="features-title">
+                  <span class="features-title-wrapper">
+                    Красивая дорога
+                  </span>
+                </h3>
+                <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </div>
+            </li>
+
+            <li class="features-item features-turists">
+              <div class="features-item-wrapper">
+                <h3 class="features-title">
+                  <span class="features-title-wrapper">
+                    Мало туристов
+                  </span>
+                </h3>
+                <p>Большинство едет в Гранд Каньон и толпится там</p>
+              </div>
+            </li>
+
+            <li class="features-item features-item-inverse features-bridge">
+              <div class="features-item-wrapper">
+                <h3 class="features-title features-title-inverse">
+                  <span class="features-title-wrapper">
+                    Там есть<br>мост дьявола
+                  </span>
+                </h3>
+                <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              </div>
+            </li>
+
+            <li class="features-photo-nature">
+              <img src="images/photo-2.jpg" width="800" height="385" alt="Мост дьявола." class="features-photo">
+            </li>
           </ul>
         </section>
 
@@ -233,7 +231,7 @@
             </p>
 
             <div class="visitors-input-wrapper">
-              <p class="modal-form-adults">
+              <div class="modal-form-adults">
                 <label class="modal-label modal-label-adults" for="adults-input">Взрослые:</label>
                 <div class="count-control-wrapper">
                   <button type="button" class="guests-count-control adults-count-control-down">
@@ -248,9 +246,9 @@
                     </svg>
                   </button>
                 </div>
-              </p>
+              </div>
 
-              <p class="modal-form-childrens">
+              <div class="modal-form-childrens">
                 <span class="modal-label">
                   <label class="modal-label modal-label-children" for="childrens-input">Дети:</label>
                   <span class="tooltip">
@@ -276,7 +274,7 @@
                     </svg>
                   </button>
                 </div>
-              </p>
+              </div>
             </div>
             <button type="submit" class="button button-modal-submit">Найти</button>
           </form>
