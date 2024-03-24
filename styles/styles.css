@@ -19,8 +19,11 @@
   --color-black: #333333;
   --color-alternative-black: #000000;
   --color-light-blue: #82b3d3;
+  --color-alternative-light-blue: #83b3d3;
+  --color-blue-statments: #68a2ca;
   --color-green: #7db54f;
   --color-grey: #f2f2f2;
+  --color-dark-grey: #e6e6e6;
 }
 
 html {
@@ -601,7 +604,7 @@ body {
 }
 
 .social-icon {
-  fill: #83b3d3;
+  fill: var(--color-alternative-light-blue);
   position: absolute;
   top: 0;
   right: 0;
@@ -611,7 +614,7 @@ body {
 }
 
 .social-icon:focus-visible {
-  fill:  #68a2ca;
+  fill:  var(--color-blue-statments);
 }
 
 .social-link:focus-visible {
@@ -653,7 +656,7 @@ body {
 }
 
 .footer-logo-img {
-  fill: #000000;
+  fill: var(--color-alternative-black);
   position: absolute;
   top: 0;
   right: 0;
@@ -800,7 +803,7 @@ body {
 }
 
 .control-input:focus + .control-mark {
-  outline: 3px solid #83b3d3;
+  outline: 3px solid var(--color-alternative-light-blue);
 }
 
 .control-input[type="checkbox"]:checked + .control-mark {
@@ -870,7 +873,7 @@ body {
 }
 
 .range-input:focus {
-  outline: 3px solid #82b3d3;
+  outline: 3px solid var(--color-light-blue);
 }
 
 .range-input:not(:placeholder-shown):hover {
@@ -910,11 +913,11 @@ body {
 }
 
 .range-toggle:focus-visible {
-  outline: 3px solid #82b3d3;
+  outline: 3px solid var(--color-light-blue);
 }
 
 .range-toggle:active {
-  outline: 2px solid #82b3d3;
+  outline: 2px solid var(--color-light-blue);
 }
 
 .toggle-min {
@@ -953,7 +956,7 @@ body {
 .button-submit:hover,
 .button-submit:focus-visible {
   cursor: pointer;
-  background-color:#68a2ca;
+  background-color:var(--color-blue-statments);
 }
 
 .button-submit:active {
@@ -985,7 +988,7 @@ body {
 }
 
 .button-reset:focus-visible {
-  outline: 3px solid #83b3d3;
+  outline: 3px solid var(--color-alternative-light-blue);
 }
 
 .button-reset:active {
@@ -1059,7 +1062,7 @@ body {
 
 .select-control:hover,
 .select-control:focus {
-  border: 2px solid #68a2ca;
+  border: 2px solid var(--color-blue-statments);
   outline: none;
 }
 
@@ -1099,11 +1102,11 @@ body {
 .catalog-view-button:hover,
 .catalog-view-button:active,
 .catalog-view-button-current {
-  outline: 2px solid #000000;
+  outline: 2px solid var(--color-alternative-black);
 }
 
 .catalog-view-button:focus-visible {
-  outline: 2px solid #68a2ca;
+  outline: 2px solid var(--color-blue-statments);
 }
 
 .catalog-view-button-grid {
@@ -1163,7 +1166,7 @@ body {
 
 .hotel-card-button-favorite:hover,
 .hotel-card-button-favorite:focus-visible {
-  background-color: #68a2ca;
+  background-color: var(--color-blue-statments);
 }
 
 .hotel-card-button-favorite:active,
@@ -1285,8 +1288,8 @@ body {
 
 .pagination-link:hover,
 .pagination-link:focus-visible {
-  background-color: #68a2ca;
-  outline: 1px solid  #82b3d3;;
+  background-color: var(--color-blue-statments);
+  outline: 1px solid  var(--color-light-blue);
 }
 
 .pagination-link:active {
@@ -1469,7 +1472,7 @@ input[type=number] {
 
 .guests-count-control:hover .guests-count-control-icon {
   opacity: 1;
-  fill: #000000;
+  fill: var(--color-alternative-black);
 }
 
 .guests-count-control:focus-visible {
@@ -1478,8 +1481,8 @@ input[type=number] {
 
 .guests-count-control:focus-visible .guests-count-control-icon{
   opacity: 1;
-  fill: #000000;
-  outline: 3px solid #82b3d3;
+  fill: var(--color-alternative-black);
+  outline: 3px solid var(--color-light-blue);
 }
 
 .modal-input::placeholder{
@@ -1487,12 +1490,12 @@ input[type=number] {
 }
 
 .modal-input:hover {
-  background-color:  #e6e6e6;
+  background-color:  var(--color-dark-grey);
 }
 
 .modal-input:focus {
-  outline: 3px solid #83b3d3;
-  background-color:  #e6e6e6;
+  outline: 3px solid var(--color-alternative-light-blue);
+  background-color:  var(--color-dark-grey);
 }
 
 .modal-input:not(:placeholder-shown):hover {
@@ -1526,12 +1529,12 @@ input[type=number] {
 }
 
 .modal-close-button:hover {
-  background-color: #e6e6e6;
+  background-color: var(--color-dark-grey);
 }
 
 .modal-close-button:focus-visible {
-  background-color: #e6e6e6;
-  outline: 3px solid #83b3d3;
+  background-color: var(--color-dark-grey);
+  outline: 3px solid var(--color-alternative-light-blue);
 }
 
 .modal-close-button:active {
@@ -1555,7 +1558,7 @@ input[type=number] {
 }
 
 .button-modal-submit {
-  background-color: #83b3d3;
+  background-color: var(--color-alternative-light-blue);
   height: 60px;
   border-radius: 10px;
   width: 577px;
@@ -1565,7 +1568,7 @@ input[type=number] {
 
 .button-modal-submit:hover,
 .button-modal-submit:focus-visible {
-  background-color: #68a2ca;
+  background-color: var(--color-blue-statments);
 }
 
 .button-modal-submit:active {
