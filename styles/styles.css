@@ -525,6 +525,12 @@ body {
   outline: 3px solid var(--color-light-blue);
 }
 
+.subscription-filed::-webkit-input-placeholder,
+.subscription-filed::-moz-placeholder {
+  font-family: "PT sans", "Arial", sans-serif;
+  font-size: 18px;
+}
+
 .button-subscription {
   background-color: var(--color-light-blue);
   font-size: 20px;
