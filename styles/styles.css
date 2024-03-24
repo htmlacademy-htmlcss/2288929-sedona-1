@@ -299,11 +299,6 @@ body {
   min-height: 160px;
 }
 
-/* .wrapper-features-list {
-  display: flex;
-  flex-direction: row-reverse;
-} */
-
 .features-title {
   margin: 0;
   margin-bottom: 62px;
@@ -317,10 +312,6 @@ body {
   display: flex;
   width: 175px;
 }
-
-/* .wrapper-features-list-center {
-  display: flex;
-} */
 
 .features-city {
   grid-column: 1/2;
@@ -351,7 +342,6 @@ body {
   grid-column: 3/4;
   grid-row: 3/4;
 }
-
 
 .features-item-wrapper::before {
   content: "";
