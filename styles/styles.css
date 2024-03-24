@@ -267,11 +267,14 @@ body {
 }
 
 .features-list {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(3, 385px);
 }
 
 .features-photo {
@@ -296,10 +299,10 @@ body {
   min-height: 160px;
 }
 
-.wrapper-features-list {
+/* .wrapper-features-list {
   display: flex;
   flex-direction: row-reverse;
-}
+} */
 
 .features-title {
   margin: 0;
@@ -315,9 +318,40 @@ body {
   width: 175px;
 }
 
-.wrapper-features-list-center {
+/* .wrapper-features-list-center {
   display: flex;
+} */
+
+.features-city {
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
+
+.features-photo-town {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.features-square {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.features-road {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.features-turists {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.features-bridge {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
 
 .features-item-wrapper::before {
   content: "";
