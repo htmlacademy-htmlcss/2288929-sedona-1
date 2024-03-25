@@ -7,6 +7,8 @@
     <meta name="description" content="Уютный красивый небольшой туристический городок в Аризоне">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
   <body>
     <div class="page-container">
@@ -35,9 +37,10 @@
               </a>
             </li>
             <li class="navigation-item">
-              <a href="#" class="navigation-link" title="Добавить в избранное">
+              <a href="#" class="navigation-link navigation-link-favorite" title="Добавить в избранное" data-count="12">
+                <span class="favorite visually-hidden">В избранном <span class="favorite-count visually-hidden">12</span>гостиниц</span>
                 <span class="visually-hidden">
-                  В избранное
+                  Избранное
                 </span>
               </a>
             </li>
@@ -52,10 +55,11 @@
 
       <main class="main main-container">
         <section class="hero">
-          <div class="hero-container">
+          <div class="hero-container hero-divider">
             <h1 class="visually-hidden">Туристический город Седона</h1>
             <img src="images/index-background.jpg" class="lead-background" width="1200" height="485" alt="Ущелье и горные склоны.">
             <img src="images/welcome.svg" class="hero-lead-text" width="458" height="352" alt="Welcome to gorgeous Sedona, because the Grand Canyon sucks.">
+            <div class="divider-image"></div>
           </div>
         </section>
 
@@ -64,62 +68,60 @@
           <p class="lead-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
           <p class="lead-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           <ul class="features-list">
-            <div class="wrapper-features-list">
-              <li>
-                <img src="images/photo-1.jpg" width="800" height="385" alt="Здания в Седоне." class="features-photo">
-              </li>
-              <li class="features-item features-item-inverse">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title ">Настоящий городок</h3>
-                  <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-                </div>
-              </li>
-            </div>
+            <li class="features-item features-photo-town">
+              <img src="images/photo-1.jpg" width="800" height="385" alt="Здания в Седоне." class="features-photo">
+            </li>
 
-            <div class="wrapper-features-list-center">
-              <li class="features-item">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title">Небольшая площадь</h3>
-                  <p>Все достопримечательности находятся очень близко</p>
-                </div>
-              </li>
-              <li class="features-item features-item-blue">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title">
-                    <span class="features-title-wrapper">
-                      Красивая дорога
-                    </span>
-                  </h3>
-                  <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-                </div>
-              </li>
-              <li class="features-item">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title">
-                    <span class="features-title-wrapper">
-                      Мало туристов
-                    </span>
-                  </h3>
-                  <p>Большинство едет в Гранд Каньон и толпится там</p>
-                </div>
-              </li>
-            </div>
+            <li class="features-item features-item-inverse features-city">
+              <div class="features-item-wrapper">
+                <h3 class="features-title ">Настоящий городок</h3>
+                <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+              </div>
+            </li>
 
-            <div class="wrapper-features-list">
-              <li class="features-item features-item-inverse">
-                <div class="features-item-wrapper">
-                  <h3 class="features-title features-title-inverse">
-                    <span class="features-title-wrapper">
-                      Там есть<br>мост дьявола
-                    </span>
-                  </h3>
-                  <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-                </div>
-              </li>
-              <li>
-                <img src="images/photo-2.jpg" width="800" height="385" alt="Мост дьявола." class="features-photo">
-              </li>
-            </div>
+            <li class="features-item features-square">
+              <div class="features-item-wrapper">
+                <h3 class="features-title">Небольшая площадь</h3>
+                <p>Все достопримечательности находятся очень близко</p>
+              </div>
+            </li>
+
+            <li class="features-item features-item-blue features-road">
+              <div class="features-item-wrapper">
+                <h3 class="features-title">
+                  <span class="features-title-wrapper">
+                    Красивая дорога
+                  </span>
+                </h3>
+                <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </div>
+            </li>
+
+            <li class="features-item features-turists">
+              <div class="features-item-wrapper">
+                <h3 class="features-title">
+                  <span class="features-title-wrapper">
+                    Мало туристов
+                  </span>
+                </h3>
+                <p>Большинство едет в Гранд Каньон и толпится там</p>
+              </div>
+            </li>
+
+            <li class="features-item features-item-inverse features-bridge">
+              <div class="features-item-wrapper">
+                <h3 class="features-title features-title-inverse">
+                  <span class="features-title-wrapper">
+                    Там есть<br>мост дьявола
+                  </span>
+                </h3>
+                <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              </div>
+            </li>
+
+            <li class="features-photo-nature">
+              <img src="images/photo-2.jpg" width="800" height="385" alt="Мост дьявола." class="features-photo">
+            </li>
           </ul>
         </section>
 
@@ -198,7 +200,6 @@
           </ul>
           <a href="tel:+78128121212" title="Позвоните нам" class="footer-phone">+7 (812) 812-12-12</a>
           <a href="https://htmlacademy.ru/" title="Разработчик html academy" class="footer-logo" target="_blank">
-            <!-- <img src="images/html-academy.svg" class="footer-logo-img" width="115" height="33" alt="html academy."> -->
             <svg xmlns="http://www.w3.org/2000/svg" class="footer-logo-img" aria-label="html academy." width="115" height="34" fill="none" viewBox="0 0 115 34">
               <path d="M0 13.72v2.6h2.5v-2.6H0ZM11.6 5.32c-1.6 0-2.8.7-3.6 1.7h-.1V.82h-2v15.5h2v-5.3c0-2.1 1.3-3.6 3.3-3.6 1.8 0 2.9 1.4 2.9 3.2v5.7h2v-6.1c.1-3-1.8-4.9-4.5-4.9ZM26.6 5.62h-4.8v-3.7h-2v3.8h-1.9v2h1.9v6c0 1.7 1 2.7 2.7 2.7h4.1v-2h-3.7c-.7 0-1.1-.4-1.1-1.1v-5.7h4.8v-2ZM41.1 5.42c-1.6 0-2.9.8-3.5 2.1h-.1c-.6-1.2-1.8-2.1-3.4-2.1-1.4 0-2.5.8-3.1 1.8h-.1v-1.6H29v10.6h2v-5.4c0-2 1-3.5 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.5-1.4-4.3-3.9-4.3ZM47.8 13.52c0 1.7 1 2.7 2.8 2.7h2v-2h-1.7c-.7 0-1.1-.4-1.1-1.1V.82h-2v12.7ZM28.9 20.52c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2v-10.6h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.4 3.6-3.6 3.6ZM44.2 22.82c-.5-2.4-2.6-4.1-5.4-4.1a5.4 5.4 0 0 0-5.6 5.6c0 3.1 2.2 5.6 5.6 5.6 2.8 0 4.9-1.8 5.4-4.2h-2.1a3.4 3.4 0 0 1-3.3 2.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6c1.6 0 2.8 1 3.3 2.2h2.1v-.2ZM55.1 20.52c-.9-1.1-2.2-1.8-3.9-1.8-3.1 0-5.4 2.3-5.4 5.6s2.3 5.6 5.4 5.6c1.8 0 3-.8 3.8-1.9h.1v1.6h2v-10.6h-2v1.5Zm-3.6 7.4c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c0 1.9-1.5 3.6-3.6 3.6ZM68.7 20.62c-.9-1.1-2.2-1.9-3.9-1.9-3.1 0-5.4 2.3-5.4 5.6s2.2 5.6 5.4 5.6c1.7 0 3-.8 3.8-1.8h.1v1.5h2v-15.4h-2v6.4Zm-3.6 7.3c-2.2 0-3.6-1.6-3.6-3.6s1.4-3.6 3.6-3.6 3.6 1.6 3.6 3.6c-.1 2-1.5 3.6-3.6 3.6ZM78.3 18.72c-3.3 0-5.5 2.5-5.5 5.6 0 3 2.1 5.6 5.5 5.6 2.5 0 4.5-1.3 5.2-3.6h-2.1c-.5 1-1.6 1.6-3 1.6-1.9 0-3.3-1.3-3.4-2.9h8.8c.2-3.6-2-6.3-5.5-6.3Zm0 1.9c1.7 0 3 1 3.3 2.6h-6.5c.3-1.5 1.5-2.6 3.2-2.6ZM98.2 18.72c-1.6 0-2.9.8-3.6 2h-.1c-.6-1.2-1.8-2-3.4-2-1.4 0-2.5.7-3.1 1.8v-1.5h-1.9v10.6h2v-5.4c0-2 1-3.4 2.6-3.5 1.5 0 2.4 1 2.4 2.6v6.3h2v-5.6c0-2.4 1.4-3.3 2.6-3.3 1.5 0 2.4 1 2.4 2.6v6.3h2v-6.5c.1-2.6-1.4-4.4-3.9-4.4ZM109.4 27.82l-3.6-8.9h-2.2l4.8 11.6c-.3.9-.7 1.2-1.7 1.2h-2.5v2h2.5c1.8 0 2.8-.8 3.5-2.6l4.7-12.2h-2.1l-3.4 8.9Z"/>
             </svg>
@@ -206,5 +207,79 @@
         </div>
       </footer>
     </div>
+
+    <div class="modal-container modal-close">
+      <div class="modal modal-search">
+        <button class="modal-close-button">
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+
+        <section class="modal-content">
+          <h2 class="lead-title">Поиск гостиницы в Седоне</h2>
+          <form action="https://echo.htmlacademy.ru/" class="modal-form" method="post">
+            <p class="modal-form-date">
+              <label class="modal-label" for="checkin-input">Дата заезда:</label>
+              <input type="text" class="modal-input modal-input-date" name="checkin-date" value="27 апреля 2020" id="checkin-input" placeholder="Укажите дату" required>
+              <span class="warning warning-close">Мы не можем отправить вас в прошлое.</span>
+            </p>
+
+            <p class="modal-form-date">
+              <label class="modal-label" for="checkout-input">Дата выезда:</label>
+              <input type="text" class="modal-input modal-input-date" name="checkout-date" value="1 сентября 2023" id="checkout-input" placeholder="Укажите дату" required>
+              <span class="message message-close">На эти даты есть свободные номера. Пока есть.</span>
+            </p>
+
+            <div class="visitors-input-wrapper">
+              <div class="modal-form-adults">
+                <label class="modal-label modal-label-adults" for="adults-input">Взрослые:</label>
+                <div class="count-control-wrapper">
+                  <button type="button" class="guests-count-control adults-count-control-down">
+                    <svg class="guests-count-control-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                      <path fill="#000" d="M3 9v2h14V9H3Z"/>
+                    </svg>
+                  </button>
+                  <input type="number" class="modal-input-count modal-input-adults-count" placeholder="1" name="adults-count" id="adults-input" required>
+                  <button type="button" class="guests-count-control adults-count-control-up">
+                    <svg class="guests-count-control-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill="#000" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <div class="modal-form-childrens">
+                <span class="modal-label">
+                  <label class="modal-label modal-label-children" for="childrens-input">Дети:</label>
+                  <span class="tooltip">
+                    <button type="button" class="tooltip-toggle" aria-labelledby="tooltip-label-childrens">
+                      <svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewBox="0 0 26 26">
+                        <circle cx="13" cy="13" r="13" fill="#83B3D3"/>
+                        <path fill="#fff" fill-rule="evenodd" d="M12 7h2v2h-2V7Zm2 12h-2v-9h2v9Z" clip-rule="evenodd"/>
+                      </svg>
+                    </button>
+                    <span class="tooltip-text" role="tooltip" id="tooltip-label-childrens">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                  </span>
+                </span>
+                <div class="count-control-wrapper">
+                  <button type="button" class="guests-count-control childrens-count-control-down">
+                    <svg class="guests-count-control-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                      <path fill="#000" d="M3 9v2h14V9H3Z"/>
+                    </svg>
+                  </button>
+                  <input type="number" class="modal-input-count modal-input-childrens-count" placeholder="1" name="childrens-count" id="childrens-input" required>
+                  <button type="button" class="guests-count-control childrens-count-control-up">
+                    <svg class="guests-count-control-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+                      <path fill="#000" d="M17 9h-6V3H9v6H3v2h6v6h2v-6h6V9Z"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="button button-modal-submit">Найти</button>
+          </form>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
