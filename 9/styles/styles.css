@@ -1349,9 +1349,9 @@ body {
   margin: auto;
 }
 
-.modal-close {
+/* .modal-close {
   display: none;
-}
+} */
 
 .modal-form {
   display: grid;
@@ -1370,9 +1370,9 @@ body {
   align-items: center;
 }
 
-.modal-label-adults {
+/* .modal-label-adults {
   margin-right: 46px;
-}
+} */
 
 .modal-search {
   width: 577px;
@@ -1435,14 +1435,6 @@ input[type=number] {
   height: 48px;
   grid-template-columns: 40px 31px 40px;
   place-items: center;
-}
-
-.count-control-wrapper:first-of-type {
-  margin-right: 88px;
-}
-
-.count-control-wrapper:last-of-type{
-  margin-left: 82px;
 }
 
 .guests-count-control {
@@ -1554,7 +1546,16 @@ input[type=number] {
   margin: 0;
 }
 
+.modal-form-adults {
+  display: flex;
+  align-items: center;
+  gap: 46px;
+}
+
 .modal-form-childrens {
+  display: flex;
+  align-items: center;
+  gap: 82px;
   margin-left: auto;
 }
 
