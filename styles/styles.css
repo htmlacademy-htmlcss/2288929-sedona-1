@@ -24,6 +24,7 @@
   --color-green: #7db54f;
   --color-grey: #f2f2f2;
   --color-dark-grey: #e6e6e6;
+  --color-buttons-disabled: #e5e5e5;
   --color-brown-statments: #615048;
 }
 
@@ -986,7 +987,7 @@ body {
 }
 
 .button-submit:disabled {
-  color: #e5e5e5;
+  background-color: var(--color-buttons-disabled);
   pointer-events: none;
 }
 
@@ -1072,7 +1073,7 @@ body {
   height: 49px;
   padding: 14px 20px;
   box-sizing: border-box;
-  border: 2px solid #e5e5e5;
+  border: 2px solid var(--color-buttons-disabled);
   background-color: var(--color-white);
   border-radius: 4px;
   appearance: none;
@@ -1121,7 +1122,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 4px;
-  outline: 2px solid #e5e5e5;
+  outline: 2px solid var(--color-buttons-disabled);
   border: 0;
 }
 
@@ -1238,11 +1239,11 @@ body {
   background-color: var(--color-brown-statments);
 }
 
-.hotel-card-link:disabled,
+.hotel-card-link.disabled,
 .hotel-card-button-favorite:disabled,
 .button-favorite-added:disabled {
   color: var(--color-white);
-  background-color: #e5e5e5;
+  background-color: var(--color-buttons-disabled);
   pointer-events: none;
 }
 
