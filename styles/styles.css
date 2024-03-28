@@ -1291,11 +1291,16 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 
 .pagination-item:not(:last-child) {
   margin-right: 8px;
+}
+
+.pagination-item {
+  margin-bottom: 8px;
 }
 
 .pagination-link,
