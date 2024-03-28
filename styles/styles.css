@@ -827,8 +827,9 @@ body {
 
 .control-input[type="checkbox"]:checked + .control-mark {
   background-image: url("../images/check.svg");
+  background-size: 13px 11px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 4px 5px;
 }
 
 .control-input[type="radio"]:checked + .control-mark::before {
