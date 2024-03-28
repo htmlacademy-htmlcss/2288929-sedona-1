@@ -704,7 +704,7 @@ body {
   color: var(--color-white);
   width: 1200px;
   box-sizing: border-box;
-  padding: 35px 70px 70px 70px;
+  padding: 35px 70px 72px 70px;
   margin-bottom: 50px;
 }
 
@@ -1061,7 +1061,7 @@ body {
 .catalog-header-inner {
   display: flex;
   margin-bottom: 40px;
-  align-items: start;
+  align-items: center;
 }
 
 .select-control {
@@ -1096,6 +1096,7 @@ body {
 .sorting-container {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .catalog-header-inner .lead-title {
@@ -1283,7 +1284,7 @@ body {
 }
 
 .catalog-footer {
-  margin-bottom: 60px;
+  margin-bottom: 52px;
 }
 
 .pagination-list {
@@ -1352,7 +1353,6 @@ body {
   background-color: var(--color-grey);
   color: var(--color-alternative-black);
   opacity: 0.6;
-
 }
 
 .subscription-filed::placeholder {
@@ -1366,6 +1366,13 @@ body {
   font-weight: 700;
   line-height: 1.8;
   text-transform: uppercase;
+}
+
+.subscription-catalog .lead-description {
+  font-size: 22px;
+  line-height: 1.18;
+  margin: 0;
+  margin-bottom: 54px;
 }
 
 .modal-container {
