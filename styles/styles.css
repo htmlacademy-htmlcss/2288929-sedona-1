@@ -583,6 +583,11 @@ body {
   min-height: 52px;
 }
 
+.button-subscription:focus-visible {
+  outline: 2px solid var(--color-alternative-black);
+  outline-offset: 0;
+}
+
 .footer-container {
   display: flex;
   max-width: 1200px;
