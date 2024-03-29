@@ -1199,6 +1199,7 @@ body {
 .hotel-card-button-favorite:hover,
 .hotel-card-button-favorite:focus-visible {
   background-color: var(--color-blue-statments);
+  outline: none;
 }
 
 .hotel-card-button-favorite:active,
@@ -1210,6 +1211,7 @@ body {
 .button-favorite-added:hover,
 .button-favorite-added:focus-visible {
   background-color: #6c9e42;
+  outline: none;
 }
 
 .hotel-card {
@@ -1237,6 +1239,7 @@ body {
 .hotel-card-link:hover,
 .hotel-card-link:focus-visible {
   background-color: var(--color-brown-statments);
+  outline: none;
 }
 
 .hotel-card-link.disabled,
@@ -1321,7 +1324,8 @@ body {
 .pagination-link:hover,
 .pagination-link:focus-visible {
   background-color: var(--color-blue-statments);
-  outline: 1px solid  var(--color-light-blue);
+  outline: 1px solid var(--color-light-blue);
+  outline-offset: 0;
 }
 
 .pagination-link:active {
