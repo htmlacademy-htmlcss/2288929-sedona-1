@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: > 2% and last 1 version
+*/
+
 @font-face {
   font-family: "PT sans";
   src: url("../fonts/ptsans-400.woff2") format("woff2");
@@ -906,7 +913,8 @@ body {
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1078,7 +1086,8 @@ body {
   border: 2px solid var(--color-buttons-disabled);
   background-color: var(--color-white);
   border-radius: 4px;
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   background-image: url("../images/arrow-down.svg");
   background-repeat: no-repeat;
   background-size: 12px 9px;
@@ -1458,12 +1467,14 @@ body {
 
 .modal-input-count::-webkit-outer-spin-button,
 .modal-input-count::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
 input[type="number"] {
-  appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
 }
 
 .modal-input-date {
