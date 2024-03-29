@@ -30,7 +30,7 @@
           </ul>
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
-              <a href="#" class="navigation-link" title="Поиск">
+              <a href="#" class="navigation-link navigation-link-search" title="Поиск">
                 <span class="visually-hidden">
                   Поиск
                 </span>
@@ -101,21 +101,21 @@
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="accommodation" value="hotel" checked>
+                      <input class="control-input visually-hidden" type="radio" name="accommodation" value="hotel" checked required>
                       <span class="control-mark"></span>
                       <span class="control-label">Гостиница</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="accommodation" value="motel">
+                      <input class="control-input visually-hidden" type="radio" name="accommodation" value="motel" required>
                       <span class="control-mark"></span>
                       <span class="control-label">Мотель</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
-                      <input class="control-input visually-hidden" type="radio" name="accommodation" value="appartments">
+                      <input class="control-input visually-hidden" type="radio" name="accommodation" value="appartments" required>
                       <span class="control-mark"></span>
                       <span class="control-label">Апартаменты</span>
                     </label>
@@ -128,10 +128,10 @@
                   <div class="catalog-filter-list catalog-filter-list-price">
                     <div class="range-wrapper-inputs">
                       <label class="control-start">
-                        <input class="range-input range-input-start" type="number" value="0" placeholder="от">
+                        <input class="range-input range-input-start" type="number" value="0" placeholder="от" required>
                       </label>
                       <label class="control-end">
-                        <input class="range-input range-input-end" type="number" value="9000" placeholder="до">
+                        <input class="range-input range-input-end" type="number" value="9000" placeholder="до" required>
                       </label>
                     </div>
                     <div class="range">
@@ -297,7 +297,7 @@
           <div class="subscription-wrapper">
             <h2 class="visually-hidden">Подписка</h2>
             <p class="lead-title">Подпишитесь на рассылку</p>
-            <p class="lead-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <p class="lead-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
             <form action="https://echo.htmlacademy.ru/" class="subscription-form" method="post">
               <input class="subscription-filed" type="email" name="email-subscription" placeholder="Ваш e-mail" required>
               <button type="submit" class="button button-subscription">Подписаться</button>
