@@ -225,9 +225,13 @@ body {
 .button-nav:focus-visible,
 .search-button:focus-visible {
   background-color: var(--color-brown-statments);
-  color: rgba(255, 255, 255, 0.3);
   border: none;
   outline: none;
+}
+
+.button-nav:active,
+.search-button:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .main-container {
@@ -604,6 +608,10 @@ body {
   outline-offset: 0;
 }
 
+.button-subscription:active {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .footer-container {
   display: flex;
   max-width: 1200px;
@@ -657,7 +665,7 @@ body {
   outline: none;
 }
 
-.social-icon:active {
+.social-link:active .social-icon {
   fill: rgba(104, 162, 202, 0.3);
 }
 
