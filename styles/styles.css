@@ -243,6 +243,11 @@ body {
 
 .hero-container {
   position: relative;
+  width: 1200px;
+  min-height: 485px;
+  background-image: url("../images/index-background.jpg");
+  background-size: 1200px 485px;
+  background-position: center;
 }
 
 .divider-image {
