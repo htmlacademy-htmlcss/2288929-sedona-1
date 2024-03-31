@@ -296,8 +296,8 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(3, 400px);
+  display: flex;
+  flex-wrap: wrap;
   background-color: rgba(131, 179, 211, 0.12);
 }
 
