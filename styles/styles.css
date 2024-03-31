@@ -184,12 +184,14 @@ body {
   color: var(--color-white);
   display: grid;
   place-items: center;
-  width: 20px;
-  height: 20px;
+  min-width: 18px;
+  min-height: 18px;
   border-radius: 50%;
   background-color: var(--color-green);
   top: 11px;
   right: 4px;
+  padding: 4px;
+  box-sizing: border-box;
 }
 
 .button {
@@ -1266,6 +1268,7 @@ body {
   min-height: 37px;
   border-radius: 4px;
   border: 0;
+  padding: 0;
 }
 
 .hotel-card-link:hover,
@@ -1287,12 +1290,18 @@ body {
 }
 
 .hotel-card-info,
-.hotel-card-buttons,
 .hotel-card-button-rating {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
+}
+
+.hotel-card-buttons {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  row-gap: 5px;
+  column-gap: 20px;
 }
 
 .hotel-card-photo,
