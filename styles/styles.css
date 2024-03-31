@@ -610,6 +610,8 @@ body {
 
 .footer-container {
   display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
   max-width: 1200px;
   padding: 40px 70px 30px;
   margin: 0 auto;
@@ -623,7 +625,7 @@ body {
   display: grid;
   grid-template-columns: 47px 47px 47px;
   max-width: 142px;
-  margin-right: 236.5px;
+  /* margin-right: 236.5px; */
   align-items: center;
 }
 
@@ -673,10 +675,13 @@ body {
   line-height: 1;
   text-transform: uppercase;
   text-decoration: none;
+  min-width: 331px;
   max-width: 720px;
   display: flex;
   min-height: 50px;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-phone:hover,
@@ -696,8 +701,8 @@ body {
 
 .footer-logo {
   position: relative;
-  width: 115px;
-  margin-left: auto;
+  min-width: 115px;
+  min-height: 33px;
 }
 
 .footer-logo-img {
