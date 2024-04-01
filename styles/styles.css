@@ -601,6 +601,10 @@ body {
   min-height: 52px;
 }
 
+.button-subscription:hover {
+  background-color: var(--color-blue-statments);
+}
+
 .button-subscription:focus-visible {
   outline: 2px solid var(--color-alternative-black);
   outline-offset: 0;
@@ -613,11 +617,11 @@ body {
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   max-width: 1200px;
   padding: 40px 70px 30px;
   margin: 0 auto;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .social-list {
@@ -627,7 +631,6 @@ body {
   display: grid;
   grid-template-columns: 47px 47px 47px;
   max-width: 142px;
-  /* margin-right: 236.5px; */
   align-items: center;
 }
 
@@ -682,8 +685,6 @@ body {
   display: flex;
   min-height: 50px;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer-phone:hover,
