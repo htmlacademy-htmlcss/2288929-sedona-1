@@ -726,7 +726,7 @@ body {
   outline: none;
 }
 
-.footer-logo-img:active {
+.footer-logo:active .footer-logo-img {
   fill: rgba(117, 97, 87, 0.3);
 }
 
