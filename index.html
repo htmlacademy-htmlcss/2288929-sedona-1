@@ -52,40 +52,34 @@
           </ul>
         </nav>
       </header>
-
       <main class="main main-container">
         <section class="hero">
-          <div class="hero-container hero-divider">
+          <div class="hero-container">
             <h1 class="visually-hidden">Туристический город Седона</h1>
-            <img src="images/index-background.jpg" class="lead-background" width="1200" height="485" alt="Ущелье и горные склоны.">
             <img src="images/welcome.svg" class="hero-lead-text" width="458" height="352" alt="Welcome to gorgeous Sedona, because the Grand Canyon sucks.">
             <div class="divider-image"></div>
           </div>
         </section>
-
         <section class="features">
           <h2 class="visually-hidden">Преимущества</h2>
           <p class="lead-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
           <p class="lead-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
           <ul class="features-list">
-            <li class="features-item features-photo-town">
-              <img src="images/photo-1.jpg" width="800" height="385" alt="Здания в Седоне." class="features-photo">
-            </li>
-
             <li class="features-item features-item-inverse features-city">
               <div class="features-item-wrapper">
                 <h3 class="features-title ">Настоящий городок</h3>
                 <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
             </li>
-
+            <li class="features-item features-photo-town">
+              <img src="images/photo-1.jpg" width="800" height="385" alt="Здания в Седоне." class="features-photo">
+            </li>
             <li class="features-item features-square">
               <div class="features-item-wrapper">
                 <h3 class="features-title">Небольшая площадь</h3>
                 <p>Все достопримечательности находятся очень близко</p>
               </div>
             </li>
-
             <li class="features-item features-item-blue features-road">
               <div class="features-item-wrapper">
                 <h3 class="features-title">
@@ -96,7 +90,6 @@
                 <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </div>
             </li>
-
             <li class="features-item features-turists">
               <div class="features-item-wrapper">
                 <h3 class="features-title">
@@ -107,7 +100,9 @@
                 <p>Большинство едет в Гранд Каньон и толпится там</p>
               </div>
             </li>
-
+            <li class="features-item features-photo-nature">
+              <img src="images/photo-2.jpg" width="800" height="385" alt="Мост дьявола." class="features-photo">
+            </li>
             <li class="features-item features-item-inverse features-bridge">
               <div class="features-item-wrapper">
                 <h3 class="features-title features-title-inverse">
@@ -118,13 +113,8 @@
                 <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
             </li>
-
-            <li class="features-item features-photo-nature">
-              <img src="images/photo-2.jpg" width="800" height="385" alt="Мост дьявола." class="features-photo">
-            </li>
           </ul>
         </section>
-
         <section class="entertainments">
           <h2 class="visually-hidden">Развлечения</h2>
           <p class="lead-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
@@ -170,7 +160,6 @@
           </div>
         </section>
       </main>
-
       <footer class="footer">
         <div class="footer-container">
           <ul class="social-list">
@@ -207,13 +196,11 @@
         </div>
       </footer>
     </div>
-
     <div class="modal-container modal-close">
       <div class="modal modal-search">
-        <button class="modal-close-button">
+        <button type="button" class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
         </button>
-
         <section class="modal-content">
           <h2 class="lead-title">Поиск гостиницы в Седоне</h2>
           <form action="https://echo.htmlacademy.ru/" class="modal-form" method="post">
@@ -222,13 +209,11 @@
               <input type="text" class="modal-input modal-input-date" name="checkin-date" value="27 апреля 2020" id="checkin-input" placeholder="Укажите дату" required>
               <span class="warning warning-close">Мы не можем отправить вас в прошлое.</span>
             </p>
-
             <p class="modal-form-date">
               <label class="modal-label" for="checkout-input">Дата выезда:</label>
               <input type="text" class="modal-input modal-input-date" name="checkout-date" value="1 сентября 2023" id="checkout-input" placeholder="Укажите дату" required>
               <span class="message message-close">На эти даты есть свободные номера. Пока есть.</span>
             </p>
-
             <div class="visitors-input-wrapper">
               <div class="modal-form-adults">
                 <label class="modal-label modal-label-adults" for="adults-input">Взрослые:</label>
@@ -246,7 +231,6 @@
                   </button>
                 </div>
               </div>
-
               <div class="modal-form-childrens">
                 <span class="modal-label">
                   <label class="modal-label modal-label-children" for="childrens-input">Дети:</label>
