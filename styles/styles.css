@@ -252,7 +252,6 @@ body {
   min-height: 485px;
   background-image: url("../images/index-background.jpg");
   background-size: cover;
-  /* background-position: center; */
 }
 
 .divider-image {
@@ -988,6 +987,7 @@ body {
 
 .filters-form-button-wrapper {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   height: 100px;
@@ -1082,6 +1082,7 @@ body {
 
 .catalog-header-inner {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 40px;
   align-items: center;
 }
@@ -1089,9 +1090,9 @@ body {
 .select-control {
   font-size: 16px;
   line-height: 1.17;
-  width: 288px;
-  height: 45px;
-  padding: 14px 20px;
+  min-width: 288px;
+  min-height: 45px;
+  padding: 14px 30px 14px 20px;
   box-sizing: border-box;
   outline: 2px solid var(--color-buttons-disabled);
   border: none;
@@ -1119,7 +1120,8 @@ body {
 
 .sorting-container {
   display: flex;
-  /* margin-left: auto; */
+  flex-wrap: wrap;
+  margin-left: auto;
   align-items: center;
 }
 
@@ -1306,6 +1308,8 @@ body {
   text-transform: uppercase;
   display: grid;
   place-items: center;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 .catalog-footer {
